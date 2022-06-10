@@ -1,0 +1,2 @@
+# course-code-repo
+This repo contains sample starter code for bioinformatics and biostatistics courses (BIOL 130, 230, 470 and 672) at the Rochester Institute of Technology.  Languages represented are python, R, julia, perl, ruby, and client-side html/css/js.  The repo includes fundamental examples of genomics/gene parsing, scientific pipelining, scientific webserver, statistical analysis, virtual machines, high performance computing, and machine learning. 
