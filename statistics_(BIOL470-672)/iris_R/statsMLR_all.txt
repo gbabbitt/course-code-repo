@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = PL ~ PW + SL + SW, data = dataframe)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.99267 -0.17476 -0.00534  0.18227  1.06707 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.25266    0.29652  -0.852    0.396    
+PW           1.44572    0.06713  21.536   <2e-16 ***
+SL           0.73036    0.05815  12.560   <2e-16 ***
+SW          -0.65139    0.06838  -9.526   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3181 on 146 degrees of freedom
+Multiple R-squared:  0.9682,	Adjusted R-squared:  0.9675 
+F-statistic:  1479 on 3 and 146 DF,  p-value: < 2.2e-16
+
+[1] "goodbye Greg...leaving R"

@@ -1,0 +1,23 @@
+HERE IS TERMINAL OUTPUT FROM MY FANCY CODE
+StatsModels.DataFrameRegressionModel{LinearModel{LmResp{Vector{Float64}}, DensePredChol{Float64, LinearAlgebra.Cholesky{Float64, Matrix{Float64}}}}, Matrix{Float64}}
+
+Formula: petal_length ~ 1 + species
+
+Coefficients:
+────────────────────────────────────────────────────────────
+                     Estimate  Std.Error   t value  Pr(>|t|)
+────────────────────────────────────────────────────────────
+(Intercept)          3.75867   0.035135   106.978     <1e-99
+species: versicolor  0.501333  0.0496884   10.0896    <1e-17
+species: virginica   1.79333   0.0496884   36.0916    <1e-74
+────────────────────────────────────────────────────────────2×6 typename(DataFrame)
+│ Row │ Source    │ DF        │ SS        │ MSS       │ F         │ p           │
+│     │ String    │ Abstract… │ Abstract… │ Abstract… │ Abstract… │ Abstract…   │
+├─────┼───────────┼───────────┼───────────┼───────────┼───────────┼─────────────┤
+│ 1   │ Species   │ 2.0       │ 437.103   │ 218.551   │ 1180.16   │ 2.85678e-91 │
+│ 2   │ Residuals │ 147.0     │ 27.2226   │ 0.185188  │ 0.0       │ 0.0         │2×6 typename(DataFrame)
+│ Row │ Source    │ DF        │ SS        │ MSS       │ F         │ p           │
+│     │ String    │ Abstract… │ Abstract… │ Abstract… │ Abstract… │ Abstract…   │
+├─────┼───────────┼───────────┼───────────┼───────────┼───────────┼─────────────┤
+│ 1   │ species   │ 2.0       │ 436.644   │ 218.322   │ 1179.03   │ 3.05198e-91 │
+│ 2   │ Residuals │ 147.0     │ 27.22     │ 0.18517   │ 0.0       │ 0.0         │

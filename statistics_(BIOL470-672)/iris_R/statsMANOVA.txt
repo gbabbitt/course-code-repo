@@ -1,0 +1,3033 @@
+
+	One-way analysis of means (not assuming equal variances)
+
+data:  SL and Sp
+F = 138.91, num df = 2.000, denom df = 92.211, p-value <
+2.2e-16
+
+
+	One-way analysis of means (not assuming equal variances)
+
+data:  SW and Sp
+F = 43.303, num df = 2.00, denom df = 97.37, p-value = 3.52e-14
+
+
+	One-way analysis of means (not assuming equal variances)
+
+data:  PL and Sp
+F = 1826.6, num df = 2.000, denom df = 78.055, p-value <
+2.2e-16
+
+
+	One-way analysis of means (not assuming equal variances)
+
+data:  PW and Sp
+F = 1268.3, num df = 2.000, denom df = 85.377, p-value <
+2.2e-16
+
+           Df Pillai approx F num Df den Df    Pr(>F)    
+Sp          2 1.1872   52.949      8    290 < 2.2e-16 ***
+Residuals 147                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "goodbye Greg...leaving R"
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 1.5 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+    SL  SW  PL  PW         Sp
+1  6.6 3.0 4.4 1.4 versicolor
+2  5.8 2.7 3.9 1.2 versicolor
+3  4.9 3.1 1.5 0.1     setosa
+4  6.4 3.2 5.3 2.3  virginica
+5  5.4 3.7 1.5 0.2     setosa
+6  4.6 3.2 1.4 0.2     setosa
+7  4.8 3.0 1.4 0.3     setosa
+8  5.8 2.7 4.1 1.0 versicolor
+9  4.4 3.0 1.3 0.2     setosa
+10 6.8 3.0 5.5 2.1  virginica
+11 4.5 2.3 1.3 0.3     setosa
+12 6.8 3.2 5.9 2.3  virginica
+13 5.6 2.5 3.9 1.1 versicolor
+14 6.0 2.2 5.0 1.5  virginica
+15 6.0 3.4 4.5 1.6 versicolor
+16 5.1 3.8 1.5 0.3     setosa
+17 5.5 2.6 4.4 1.2 versicolor
+18 6.5 3.0 5.2 2.0  virginica
+19 6.7 3.0 5.2 2.3  virginica
+20 5.5 2.4 3.8 1.1 versicolor
+21 5.1 3.5 1.4 0.3     setosa
+22 5.8 2.8 5.1 2.4  virginica
+23 6.3 3.3 6.0 2.5  virginica
+24 4.8 3.4 1.6 0.2     setosa
+25 6.4 2.8 5.6 2.1  virginica
+26 5.0 3.6 1.4 0.2     setosa
+27 5.2 2.7 3.9 1.4 versicolor
+28 5.5 2.3 4.0 1.3 versicolor
+29 6.0 2.9 4.5 1.5 versicolor
+30 6.7 3.1 5.6 2.4  virginica
+31 6.2 2.9 4.3 1.3 versicolor
+32 6.4 3.2 4.5 1.5 versicolor
+33 4.7 3.2 1.6 0.2     setosa
+34 5.6 2.7 4.2 1.3 versicolor
+35 5.9 3.0 5.1 1.8  virginica
+36 6.4 2.8 5.6 2.2  virginica
+37 5.1 2.5 3.0 1.1 versicolor
+38 6.0 2.2 4.0 1.0 versicolor
+39 6.1 2.9 4.7 1.4 versicolor
+40 7.7 2.8 6.7 2.0  virginica
+41 5.6 3.0 4.1 1.3 versicolor
+42 4.7 3.2 1.3 0.2     setosa
+43 6.4 2.7 5.3 1.9  virginica
+44 4.3 3.0 1.1 0.1     setosa
+45 5.0 3.4 1.6 0.4     setosa
+46 6.4 2.9 4.3 1.3 versicolor
+47 6.8 2.8 4.8 1.4 versicolor
+48 6.5 3.2 5.1 2.0  virginica
+49 7.7 3.8 6.7 2.2  virginica
+50 6.9 3.1 5.4 2.1  virginica
+Call:
+mda(formula = Sp ~ SL + SW + PL + PW, data = mysample)
+
+Dimension: 4 
+
+Percent Between-Group Variance Explained:
+    v1     v2     v3     v4 
+ 95.49  98.69  99.92 100.00 
+
+Degrees of Freedom (per dimension): 5 
+
+Training Misclassification Error: 0 ( N = 50 )
+
+Deviance: 0.004 
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor versicolor versicolor
+ [73] virginica  versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor virginica 
+ [85] versicolor versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  versicolor virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  virginica 
+[133] virginica  versicolor virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+                  Length Class   Mode   
+percent.explained  4     -none-  numeric
+values             8     -none-  numeric
+means             36     -none-  numeric
+theta.mod         32     -none-  numeric
+dimension          1     -none-  numeric
+sub.prior          3     -none-  list   
+fit                5     polyreg list   
+call               3     -none-  call   
+weights            3     -none-  list   
+prior              3     table   numeric
+assign.theta       3     -none-  list   
+deviance           1     -none-  numeric
+confusion          9     table   numeric
+terms              3     terms   call   
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor virginica  versicolor
+ [73] versicolor versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor versicolor
+ [85] versicolor versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  versicolor
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  versicolor virginica  virginica 
+[133] virginica  versicolor versicolor virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor versicolor versicolor
+ [73] versicolor versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor versicolor
+ [85] versicolor versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  virginica 
+[133] virginica  virginica  virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+Confusion Matrix and Statistics
+
+            Reference
+Prediction   setosa versicolor virginica
+  setosa         50          0         0
+  versicolor      0         49         4
+  virginica       0          1        46
+
+Overall Statistics
+                                          
+               Accuracy : 0.9667          
+                 95% CI : (0.9239, 0.9891)
+    No Information Rate : 0.3333          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.95            
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                 1.0000            0.9800           0.9200
+Specificity                 1.0000            0.9600           0.9900
+Pos Pred Value              1.0000            0.9245           0.9787
+Neg Pred Value              1.0000            0.9897           0.9612
+Prevalence                  0.3333            0.3333           0.3333
+Detection Rate              0.3333            0.3267           0.3067
+Detection Prevalence        0.3333            0.3533           0.3133
+Balanced Accuracy           1.0000            0.9700           0.9550
+NULL
+[1] "goodbye Greg...leaving R"
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW         Sp
+1   5.1 3.5 1.4 0.2     setosa
+2   4.9 3.0 1.4 0.2     setosa
+3   4.7 3.2 1.3 0.2     setosa
+4   4.6 3.1 1.5 0.2     setosa
+5   5.0 3.6 1.4 0.2     setosa
+6   5.4 3.9 1.7 0.4     setosa
+7   4.6 3.4 1.4 0.3     setosa
+8   5.0 3.4 1.5 0.2     setosa
+9   4.4 2.9 1.4 0.2     setosa
+10  4.9 3.1 1.5 0.1     setosa
+11  5.4 3.7 1.5 0.2     setosa
+12  4.8 3.4 1.6 0.2     setosa
+13  4.8 3.0 1.4 0.1     setosa
+14  4.3 3.0 1.1 0.1     setosa
+15  5.8 4.0 1.2 0.2     setosa
+16  5.7 4.4 1.5 0.4     setosa
+17  5.4 3.9 1.3 0.4     setosa
+18  5.1 3.5 1.4 0.3     setosa
+19  5.7 3.8 1.7 0.3     setosa
+20  5.1 3.8 1.5 0.3     setosa
+21  5.4 3.4 1.7 0.2     setosa
+22  5.1 3.7 1.5 0.4     setosa
+23  4.6 3.6 1.0 0.2     setosa
+24  5.1 3.3 1.7 0.5     setosa
+25  4.8 3.4 1.9 0.2     setosa
+26  5.0 3.0 1.6 0.2     setosa
+27  5.0 3.4 1.6 0.4     setosa
+28  5.2 3.5 1.5 0.2     setosa
+29  5.2 3.4 1.4 0.2     setosa
+30  4.7 3.2 1.6 0.2     setosa
+31  4.8 3.1 1.6 0.2     setosa
+32  5.4 3.4 1.5 0.4     setosa
+33  5.2 4.1 1.5 0.1     setosa
+34  5.5 4.2 1.4 0.2     setosa
+35  4.9 3.1 1.5 0.1     setosa
+36  5.0 3.2 1.2 0.2     setosa
+37  5.5 3.5 1.3 0.2     setosa
+38  4.9 3.1 1.5 0.1     setosa
+39  4.4 3.0 1.3 0.2     setosa
+40  5.1 3.4 1.5 0.2     setosa
+41  5.0 3.5 1.3 0.3     setosa
+42  4.5 2.3 1.3 0.3     setosa
+43  4.4 3.2 1.3 0.2     setosa
+44  5.0 3.5 1.6 0.6     setosa
+45  5.1 3.8 1.9 0.4     setosa
+46  4.8 3.0 1.4 0.3     setosa
+47  5.1 3.8 1.6 0.2     setosa
+48  4.6 3.2 1.4 0.2     setosa
+49  5.3 3.7 1.5 0.2     setosa
+50  5.0 3.3 1.4 0.2     setosa
+51  7.0 3.2 4.7 1.4 versicolor
+52  6.4 3.2 4.5 1.5 versicolor
+53  6.9 3.1 4.9 1.5 versicolor
+54  5.5 2.3 4.0 1.3 versicolor
+55  6.5 2.8 4.6 1.5 versicolor
+56  5.7 2.8 4.5 1.3 versicolor
+57  6.3 3.3 4.7 1.6 versicolor
+58  4.9 2.4 3.3 1.0 versicolor
+59  6.6 2.9 4.6 1.3 versicolor
+60  5.2 2.7 3.9 1.4 versicolor
+61  5.0 2.0 3.5 1.0 versicolor
+62  5.9 3.0 4.2 1.5 versicolor
+63  6.0 2.2 4.0 1.0 versicolor
+64  6.1 2.9 4.7 1.4 versicolor
+65  5.6 2.9 3.6 1.3 versicolor
+66  6.7 3.1 4.4 1.4 versicolor
+67  5.6 3.0 4.5 1.5 versicolor
+68  5.8 2.7 4.1 1.0 versicolor
+69  6.2 2.2 4.5 1.5 versicolor
+70  5.6 2.5 3.9 1.1 versicolor
+71  5.9 3.2 4.8 1.8 versicolor
+72  6.1 2.8 4.0 1.3 versicolor
+73  6.3 2.5 4.9 1.5 versicolor
+74  6.1 2.8 4.7 1.2 versicolor
+75  6.4 2.9 4.3 1.3 versicolor
+76  6.6 3.0 4.4 1.4 versicolor
+77  6.8 2.8 4.8 1.4 versicolor
+78  6.7 3.0 5.0 1.7 versicolor
+79  6.0 2.9 4.5 1.5 versicolor
+80  5.7 2.6 3.5 1.0 versicolor
+81  5.5 2.4 3.8 1.1 versicolor
+82  5.5 2.4 3.7 1.0 versicolor
+83  5.8 2.7 3.9 1.2 versicolor
+84  6.0 2.7 5.1 1.6 versicolor
+85  5.4 3.0 4.5 1.5 versicolor
+86  6.0 3.4 4.5 1.6 versicolor
+87  6.7 3.1 4.7 1.5 versicolor
+88  6.3 2.3 4.4 1.3 versicolor
+89  5.6 3.0 4.1 1.3 versicolor
+90  5.5 2.5 4.0 1.3 versicolor
+91  5.5 2.6 4.4 1.2 versicolor
+92  6.1 3.0 4.6 1.4 versicolor
+93  5.8 2.6 4.0 1.2 versicolor
+94  5.0 2.3 3.3 1.0 versicolor
+95  5.6 2.7 4.2 1.3 versicolor
+96  5.7 3.0 4.2 1.2 versicolor
+97  5.7 2.9 4.2 1.3 versicolor
+98  6.2 2.9 4.3 1.3 versicolor
+99  5.1 2.5 3.0 1.1 versicolor
+100 5.7 2.8 4.1 1.3 versicolor
+101 6.3 3.3 6.0 2.5  virginica
+102 5.8 2.7 5.1 1.9  virginica
+103 7.1 3.0 5.9 2.1  virginica
+104 6.3 2.9 5.6 1.8  virginica
+105 6.5 3.0 5.8 2.2  virginica
+106 7.6 3.0 6.6 2.1  virginica
+107 4.9 2.5 4.5 1.7  virginica
+108 7.3 2.9 6.3 1.8  virginica
+109 6.7 2.5 5.8 1.8  virginica
+110 7.2 3.6 6.1 2.5  virginica
+111 6.5 3.2 5.1 2.0  virginica
+112 6.4 2.7 5.3 1.9  virginica
+113 6.8 3.0 5.5 2.1  virginica
+114 5.7 2.5 5.0 2.0  virginica
+115 5.8 2.8 5.1 2.4  virginica
+116 6.4 3.2 5.3 2.3  virginica
+117 6.5 3.0 5.5 1.8  virginica
+118 7.7 3.8 6.7 2.2  virginica
+119 7.7 2.6 6.9 2.3  virginica
+120 6.0 2.2 5.0 1.5  virginica
+121 6.9 3.2 5.7 2.3  virginica
+122 5.6 2.8 4.9 2.0  virginica
+123 7.7 2.8 6.7 2.0  virginica
+124 6.3 2.7 4.9 1.8  virginica
+125 6.7 3.3 5.7 2.1  virginica
+126 7.2 3.2 6.0 1.8  virginica
+127 6.2 2.8 4.8 1.8  virginica
+128 6.1 3.0 4.9 1.8  virginica
+129 6.4 2.8 5.6 2.1  virginica
+130 7.2 3.0 5.8 1.6  virginica
+131 7.4 2.8 6.1 1.9  virginica
+132 7.9 3.8 6.4 2.0  virginica
+133 6.4 2.8 5.6 2.2  virginica
+134 6.3 2.8 5.1 1.5  virginica
+135 6.1 2.6 5.6 1.4  virginica
+136 7.7 3.0 6.1 2.3  virginica
+137 6.3 3.4 5.6 2.4  virginica
+138 6.4 3.1 5.5 1.8  virginica
+139 6.0 3.0 4.8 1.8  virginica
+140 6.9 3.1 5.4 2.1  virginica
+141 6.7 3.1 5.6 2.4  virginica
+142 6.9 3.1 5.1 2.3  virginica
+143 5.8 2.7 5.1 1.9  virginica
+144 6.8 3.2 5.9 2.3  virginica
+145 6.7 3.3 5.7 2.5  virginica
+146 6.7 3.0 5.2 2.3  virginica
+147 6.3 2.5 5.0 1.9  virginica
+148 6.5 3.0 5.2 2.0  virginica
+149 6.2 3.4 5.4 2.3  virginica
+150 5.9 3.0 5.1 1.8  virginica
+        SL  SW  PL  PW
+  [1,] 5.1 3.5 1.4 0.2
+  [2,] 4.9 3.0 1.4 0.2
+  [3,] 4.7 3.2 1.3 0.2
+  [4,] 4.6 3.1 1.5 0.2
+  [5,] 5.0 3.6 1.4 0.2
+  [6,] 5.4 3.9 1.7 0.4
+  [7,] 4.6 3.4 1.4 0.3
+  [8,] 5.0 3.4 1.5 0.2
+  [9,] 4.4 2.9 1.4 0.2
+ [10,] 4.9 3.1 1.5 0.1
+ [11,] 5.4 3.7 1.5 0.2
+ [12,] 4.8 3.4 1.6 0.2
+ [13,] 4.8 3.0 1.4 0.1
+ [14,] 4.3 3.0 1.1 0.1
+ [15,] 5.8 4.0 1.2 0.2
+ [16,] 5.7 4.4 1.5 0.4
+ [17,] 5.4 3.9 1.3 0.4
+ [18,] 5.1 3.5 1.4 0.3
+ [19,] 5.7 3.8 1.7 0.3
+ [20,] 5.1 3.8 1.5 0.3
+ [21,] 5.4 3.4 1.7 0.2
+ [22,] 5.1 3.7 1.5 0.4
+ [23,] 4.6 3.6 1.0 0.2
+ [24,] 5.1 3.3 1.7 0.5
+ [25,] 4.8 3.4 1.9 0.2
+ [26,] 5.0 3.0 1.6 0.2
+ [27,] 5.0 3.4 1.6 0.4
+ [28,] 5.2 3.5 1.5 0.2
+ [29,] 5.2 3.4 1.4 0.2
+ [30,] 4.7 3.2 1.6 0.2
+ [31,] 4.8 3.1 1.6 0.2
+ [32,] 5.4 3.4 1.5 0.4
+ [33,] 5.2 4.1 1.5 0.1
+ [34,] 5.5 4.2 1.4 0.2
+ [35,] 4.9 3.1 1.5 0.1
+ [36,] 5.0 3.2 1.2 0.2
+ [37,] 5.5 3.5 1.3 0.2
+ [38,] 4.9 3.1 1.5 0.1
+ [39,] 4.4 3.0 1.3 0.2
+ [40,] 5.1 3.4 1.5 0.2
+ [41,] 5.0 3.5 1.3 0.3
+ [42,] 4.5 2.3 1.3 0.3
+ [43,] 4.4 3.2 1.3 0.2
+ [44,] 5.0 3.5 1.6 0.6
+ [45,] 5.1 3.8 1.9 0.4
+ [46,] 4.8 3.0 1.4 0.3
+ [47,] 5.1 3.8 1.6 0.2
+ [48,] 4.6 3.2 1.4 0.2
+ [49,] 5.3 3.7 1.5 0.2
+ [50,] 5.0 3.3 1.4 0.2
+ [51,] 7.0 3.2 4.7 1.4
+ [52,] 6.4 3.2 4.5 1.5
+ [53,] 6.9 3.1 4.9 1.5
+ [54,] 5.5 2.3 4.0 1.3
+ [55,] 6.5 2.8 4.6 1.5
+ [56,] 5.7 2.8 4.5 1.3
+ [57,] 6.3 3.3 4.7 1.6
+ [58,] 4.9 2.4 3.3 1.0
+ [59,] 6.6 2.9 4.6 1.3
+ [60,] 5.2 2.7 3.9 1.4
+ [61,] 5.0 2.0 3.5 1.0
+ [62,] 5.9 3.0 4.2 1.5
+ [63,] 6.0 2.2 4.0 1.0
+ [64,] 6.1 2.9 4.7 1.4
+ [65,] 5.6 2.9 3.6 1.3
+ [66,] 6.7 3.1 4.4 1.4
+ [67,] 5.6 3.0 4.5 1.5
+ [68,] 5.8 2.7 4.1 1.0
+ [69,] 6.2 2.2 4.5 1.5
+ [70,] 5.6 2.5 3.9 1.1
+ [71,] 5.9 3.2 4.8 1.8
+ [72,] 6.1 2.8 4.0 1.3
+ [73,] 6.3 2.5 4.9 1.5
+ [74,] 6.1 2.8 4.7 1.2
+ [75,] 6.4 2.9 4.3 1.3
+ [76,] 6.6 3.0 4.4 1.4
+ [77,] 6.8 2.8 4.8 1.4
+ [78,] 6.7 3.0 5.0 1.7
+ [79,] 6.0 2.9 4.5 1.5
+ [80,] 5.7 2.6 3.5 1.0
+ [81,] 5.5 2.4 3.8 1.1
+ [82,] 5.5 2.4 3.7 1.0
+ [83,] 5.8 2.7 3.9 1.2
+ [84,] 6.0 2.7 5.1 1.6
+ [85,] 5.4 3.0 4.5 1.5
+ [86,] 6.0 3.4 4.5 1.6
+ [87,] 6.7 3.1 4.7 1.5
+ [88,] 6.3 2.3 4.4 1.3
+ [89,] 5.6 3.0 4.1 1.3
+ [90,] 5.5 2.5 4.0 1.3
+ [91,] 5.5 2.6 4.4 1.2
+ [92,] 6.1 3.0 4.6 1.4
+ [93,] 5.8 2.6 4.0 1.2
+ [94,] 5.0 2.3 3.3 1.0
+ [95,] 5.6 2.7 4.2 1.3
+ [96,] 5.7 3.0 4.2 1.2
+ [97,] 5.7 2.9 4.2 1.3
+ [98,] 6.2 2.9 4.3 1.3
+ [99,] 5.1 2.5 3.0 1.1
+[100,] 5.7 2.8 4.1 1.3
+[101,] 6.3 3.3 6.0 2.5
+[102,] 5.8 2.7 5.1 1.9
+[103,] 7.1 3.0 5.9 2.1
+[104,] 6.3 2.9 5.6 1.8
+[105,] 6.5 3.0 5.8 2.2
+[106,] 7.6 3.0 6.6 2.1
+[107,] 4.9 2.5 4.5 1.7
+[108,] 7.3 2.9 6.3 1.8
+[109,] 6.7 2.5 5.8 1.8
+[110,] 7.2 3.6 6.1 2.5
+[111,] 6.5 3.2 5.1 2.0
+[112,] 6.4 2.7 5.3 1.9
+[113,] 6.8 3.0 5.5 2.1
+[114,] 5.7 2.5 5.0 2.0
+[115,] 5.8 2.8 5.1 2.4
+[116,] 6.4 3.2 5.3 2.3
+[117,] 6.5 3.0 5.5 1.8
+[118,] 7.7 3.8 6.7 2.2
+[119,] 7.7 2.6 6.9 2.3
+[120,] 6.0 2.2 5.0 1.5
+[121,] 6.9 3.2 5.7 2.3
+[122,] 5.6 2.8 4.9 2.0
+[123,] 7.7 2.8 6.7 2.0
+[124,] 6.3 2.7 4.9 1.8
+[125,] 6.7 3.3 5.7 2.1
+[126,] 7.2 3.2 6.0 1.8
+[127,] 6.2 2.8 4.8 1.8
+[128,] 6.1 3.0 4.9 1.8
+[129,] 6.4 2.8 5.6 2.1
+[130,] 7.2 3.0 5.8 1.6
+[131,] 7.4 2.8 6.1 1.9
+[132,] 7.9 3.8 6.4 2.0
+[133,] 6.4 2.8 5.6 2.2
+[134,] 6.3 2.8 5.1 1.5
+[135,] 6.1 2.6 5.6 1.4
+[136,] 7.7 3.0 6.1 2.3
+[137,] 6.3 3.4 5.6 2.4
+[138,] 6.4 3.1 5.5 1.8
+[139,] 6.0 3.0 4.8 1.8
+[140,] 6.9 3.1 5.4 2.1
+[141,] 6.7 3.1 5.6 2.4
+[142,] 6.9 3.1 5.1 2.3
+[143,] 5.8 2.7 5.1 1.9
+[144,] 6.8 3.2 5.9 2.3
+[145,] 6.7 3.3 5.7 2.5
+[146,] 6.7 3.0 5.2 2.3
+[147,] 6.3 2.5 5.0 1.9
+[148,] 6.5 3.0 5.2 2.0
+[149,] 6.2 3.4 5.4 2.3
+[150,] 5.9 3.0 5.1 1.8
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW         Sp
+1   5.1 3.5 1.4 0.2     setosa
+2   4.9 3.0 1.4 0.2     setosa
+3   4.7 3.2 1.3 0.2     setosa
+4   4.6 3.1 1.5 0.2     setosa
+5   5.0 3.6 1.4 0.2     setosa
+6   5.4 3.9 1.7 0.4     setosa
+7   4.6 3.4 1.4 0.3     setosa
+8   5.0 3.4 1.5 0.2     setosa
+9   4.4 2.9 1.4 0.2     setosa
+10  4.9 3.1 1.5 0.1     setosa
+11  5.4 3.7 1.5 0.2     setosa
+12  4.8 3.4 1.6 0.2     setosa
+13  4.8 3.0 1.4 0.1     setosa
+14  4.3 3.0 1.1 0.1     setosa
+15  5.8 4.0 1.2 0.2     setosa
+16  5.7 4.4 1.5 0.4     setosa
+17  5.4 3.9 1.3 0.4     setosa
+18  5.1 3.5 1.4 0.3     setosa
+19  5.7 3.8 1.7 0.3     setosa
+20  5.1 3.8 1.5 0.3     setosa
+21  5.4 3.4 1.7 0.2     setosa
+22  5.1 3.7 1.5 0.4     setosa
+23  4.6 3.6 1.0 0.2     setosa
+24  5.1 3.3 1.7 0.5     setosa
+25  4.8 3.4 1.9 0.2     setosa
+26  5.0 3.0 1.6 0.2     setosa
+27  5.0 3.4 1.6 0.4     setosa
+28  5.2 3.5 1.5 0.2     setosa
+29  5.2 3.4 1.4 0.2     setosa
+30  4.7 3.2 1.6 0.2     setosa
+31  4.8 3.1 1.6 0.2     setosa
+32  5.4 3.4 1.5 0.4     setosa
+33  5.2 4.1 1.5 0.1     setosa
+34  5.5 4.2 1.4 0.2     setosa
+35  4.9 3.1 1.5 0.1     setosa
+36  5.0 3.2 1.2 0.2     setosa
+37  5.5 3.5 1.3 0.2     setosa
+38  4.9 3.1 1.5 0.1     setosa
+39  4.4 3.0 1.3 0.2     setosa
+40  5.1 3.4 1.5 0.2     setosa
+41  5.0 3.5 1.3 0.3     setosa
+42  4.5 2.3 1.3 0.3     setosa
+43  4.4 3.2 1.3 0.2     setosa
+44  5.0 3.5 1.6 0.6     setosa
+45  5.1 3.8 1.9 0.4     setosa
+46  4.8 3.0 1.4 0.3     setosa
+47  5.1 3.8 1.6 0.2     setosa
+48  4.6 3.2 1.4 0.2     setosa
+49  5.3 3.7 1.5 0.2     setosa
+50  5.0 3.3 1.4 0.2     setosa
+51  7.0 3.2 4.7 1.4 versicolor
+52  6.4 3.2 4.5 1.5 versicolor
+53  6.9 3.1 4.9 1.5 versicolor
+54  5.5 2.3 4.0 1.3 versicolor
+55  6.5 2.8 4.6 1.5 versicolor
+56  5.7 2.8 4.5 1.3 versicolor
+57  6.3 3.3 4.7 1.6 versicolor
+58  4.9 2.4 3.3 1.0 versicolor
+59  6.6 2.9 4.6 1.3 versicolor
+60  5.2 2.7 3.9 1.4 versicolor
+61  5.0 2.0 3.5 1.0 versicolor
+62  5.9 3.0 4.2 1.5 versicolor
+63  6.0 2.2 4.0 1.0 versicolor
+64  6.1 2.9 4.7 1.4 versicolor
+65  5.6 2.9 3.6 1.3 versicolor
+66  6.7 3.1 4.4 1.4 versicolor
+67  5.6 3.0 4.5 1.5 versicolor
+68  5.8 2.7 4.1 1.0 versicolor
+69  6.2 2.2 4.5 1.5 versicolor
+70  5.6 2.5 3.9 1.1 versicolor
+71  5.9 3.2 4.8 1.8 versicolor
+72  6.1 2.8 4.0 1.3 versicolor
+73  6.3 2.5 4.9 1.5 versicolor
+74  6.1 2.8 4.7 1.2 versicolor
+75  6.4 2.9 4.3 1.3 versicolor
+76  6.6 3.0 4.4 1.4 versicolor
+77  6.8 2.8 4.8 1.4 versicolor
+78  6.7 3.0 5.0 1.7 versicolor
+79  6.0 2.9 4.5 1.5 versicolor
+80  5.7 2.6 3.5 1.0 versicolor
+81  5.5 2.4 3.8 1.1 versicolor
+82  5.5 2.4 3.7 1.0 versicolor
+83  5.8 2.7 3.9 1.2 versicolor
+84  6.0 2.7 5.1 1.6 versicolor
+85  5.4 3.0 4.5 1.5 versicolor
+86  6.0 3.4 4.5 1.6 versicolor
+87  6.7 3.1 4.7 1.5 versicolor
+88  6.3 2.3 4.4 1.3 versicolor
+89  5.6 3.0 4.1 1.3 versicolor
+90  5.5 2.5 4.0 1.3 versicolor
+91  5.5 2.6 4.4 1.2 versicolor
+92  6.1 3.0 4.6 1.4 versicolor
+93  5.8 2.6 4.0 1.2 versicolor
+94  5.0 2.3 3.3 1.0 versicolor
+95  5.6 2.7 4.2 1.3 versicolor
+96  5.7 3.0 4.2 1.2 versicolor
+97  5.7 2.9 4.2 1.3 versicolor
+98  6.2 2.9 4.3 1.3 versicolor
+99  5.1 2.5 3.0 1.1 versicolor
+100 5.7 2.8 4.1 1.3 versicolor
+101 6.3 3.3 6.0 2.5  virginica
+102 5.8 2.7 5.1 1.9  virginica
+103 7.1 3.0 5.9 2.1  virginica
+104 6.3 2.9 5.6 1.8  virginica
+105 6.5 3.0 5.8 2.2  virginica
+106 7.6 3.0 6.6 2.1  virginica
+107 4.9 2.5 4.5 1.7  virginica
+108 7.3 2.9 6.3 1.8  virginica
+109 6.7 2.5 5.8 1.8  virginica
+110 7.2 3.6 6.1 2.5  virginica
+111 6.5 3.2 5.1 2.0  virginica
+112 6.4 2.7 5.3 1.9  virginica
+113 6.8 3.0 5.5 2.1  virginica
+114 5.7 2.5 5.0 2.0  virginica
+115 5.8 2.8 5.1 2.4  virginica
+116 6.4 3.2 5.3 2.3  virginica
+117 6.5 3.0 5.5 1.8  virginica
+118 7.7 3.8 6.7 2.2  virginica
+119 7.7 2.6 6.9 2.3  virginica
+120 6.0 2.2 5.0 1.5  virginica
+121 6.9 3.2 5.7 2.3  virginica
+122 5.6 2.8 4.9 2.0  virginica
+123 7.7 2.8 6.7 2.0  virginica
+124 6.3 2.7 4.9 1.8  virginica
+125 6.7 3.3 5.7 2.1  virginica
+126 7.2 3.2 6.0 1.8  virginica
+127 6.2 2.8 4.8 1.8  virginica
+128 6.1 3.0 4.9 1.8  virginica
+129 6.4 2.8 5.6 2.1  virginica
+130 7.2 3.0 5.8 1.6  virginica
+131 7.4 2.8 6.1 1.9  virginica
+132 7.9 3.8 6.4 2.0  virginica
+133 6.4 2.8 5.6 2.2  virginica
+134 6.3 2.8 5.1 1.5  virginica
+135 6.1 2.6 5.6 1.4  virginica
+136 7.7 3.0 6.1 2.3  virginica
+137 6.3 3.4 5.6 2.4  virginica
+138 6.4 3.1 5.5 1.8  virginica
+139 6.0 3.0 4.8 1.8  virginica
+140 6.9 3.1 5.4 2.1  virginica
+141 6.7 3.1 5.6 2.4  virginica
+142 6.9 3.1 5.1 2.3  virginica
+143 5.8 2.7 5.1 1.9  virginica
+144 6.8 3.2 5.9 2.3  virginica
+145 6.7 3.3 5.7 2.5  virginica
+146 6.7 3.0 5.2 2.3  virginica
+147 6.3 2.5 5.0 1.9  virginica
+148 6.5 3.0 5.2 2.0  virginica
+149 6.2 3.4 5.4 2.3  virginica
+150 5.9 3.0 5.1 1.8  virginica
+        SL  SW  PL  PW
+  [1,] 5.1 3.5 1.4 0.2
+  [2,] 4.9 3.0 1.4 0.2
+  [3,] 4.7 3.2 1.3 0.2
+  [4,] 4.6 3.1 1.5 0.2
+  [5,] 5.0 3.6 1.4 0.2
+  [6,] 5.4 3.9 1.7 0.4
+  [7,] 4.6 3.4 1.4 0.3
+  [8,] 5.0 3.4 1.5 0.2
+  [9,] 4.4 2.9 1.4 0.2
+ [10,] 4.9 3.1 1.5 0.1
+ [11,] 5.4 3.7 1.5 0.2
+ [12,] 4.8 3.4 1.6 0.2
+ [13,] 4.8 3.0 1.4 0.1
+ [14,] 4.3 3.0 1.1 0.1
+ [15,] 5.8 4.0 1.2 0.2
+ [16,] 5.7 4.4 1.5 0.4
+ [17,] 5.4 3.9 1.3 0.4
+ [18,] 5.1 3.5 1.4 0.3
+ [19,] 5.7 3.8 1.7 0.3
+ [20,] 5.1 3.8 1.5 0.3
+ [21,] 5.4 3.4 1.7 0.2
+ [22,] 5.1 3.7 1.5 0.4
+ [23,] 4.6 3.6 1.0 0.2
+ [24,] 5.1 3.3 1.7 0.5
+ [25,] 4.8 3.4 1.9 0.2
+ [26,] 5.0 3.0 1.6 0.2
+ [27,] 5.0 3.4 1.6 0.4
+ [28,] 5.2 3.5 1.5 0.2
+ [29,] 5.2 3.4 1.4 0.2
+ [30,] 4.7 3.2 1.6 0.2
+ [31,] 4.8 3.1 1.6 0.2
+ [32,] 5.4 3.4 1.5 0.4
+ [33,] 5.2 4.1 1.5 0.1
+ [34,] 5.5 4.2 1.4 0.2
+ [35,] 4.9 3.1 1.5 0.1
+ [36,] 5.0 3.2 1.2 0.2
+ [37,] 5.5 3.5 1.3 0.2
+ [38,] 4.9 3.1 1.5 0.1
+ [39,] 4.4 3.0 1.3 0.2
+ [40,] 5.1 3.4 1.5 0.2
+ [41,] 5.0 3.5 1.3 0.3
+ [42,] 4.5 2.3 1.3 0.3
+ [43,] 4.4 3.2 1.3 0.2
+ [44,] 5.0 3.5 1.6 0.6
+ [45,] 5.1 3.8 1.9 0.4
+ [46,] 4.8 3.0 1.4 0.3
+ [47,] 5.1 3.8 1.6 0.2
+ [48,] 4.6 3.2 1.4 0.2
+ [49,] 5.3 3.7 1.5 0.2
+ [50,] 5.0 3.3 1.4 0.2
+ [51,] 7.0 3.2 4.7 1.4
+ [52,] 6.4 3.2 4.5 1.5
+ [53,] 6.9 3.1 4.9 1.5
+ [54,] 5.5 2.3 4.0 1.3
+ [55,] 6.5 2.8 4.6 1.5
+ [56,] 5.7 2.8 4.5 1.3
+ [57,] 6.3 3.3 4.7 1.6
+ [58,] 4.9 2.4 3.3 1.0
+ [59,] 6.6 2.9 4.6 1.3
+ [60,] 5.2 2.7 3.9 1.4
+ [61,] 5.0 2.0 3.5 1.0
+ [62,] 5.9 3.0 4.2 1.5
+ [63,] 6.0 2.2 4.0 1.0
+ [64,] 6.1 2.9 4.7 1.4
+ [65,] 5.6 2.9 3.6 1.3
+ [66,] 6.7 3.1 4.4 1.4
+ [67,] 5.6 3.0 4.5 1.5
+ [68,] 5.8 2.7 4.1 1.0
+ [69,] 6.2 2.2 4.5 1.5
+ [70,] 5.6 2.5 3.9 1.1
+ [71,] 5.9 3.2 4.8 1.8
+ [72,] 6.1 2.8 4.0 1.3
+ [73,] 6.3 2.5 4.9 1.5
+ [74,] 6.1 2.8 4.7 1.2
+ [75,] 6.4 2.9 4.3 1.3
+ [76,] 6.6 3.0 4.4 1.4
+ [77,] 6.8 2.8 4.8 1.4
+ [78,] 6.7 3.0 5.0 1.7
+ [79,] 6.0 2.9 4.5 1.5
+ [80,] 5.7 2.6 3.5 1.0
+ [81,] 5.5 2.4 3.8 1.1
+ [82,] 5.5 2.4 3.7 1.0
+ [83,] 5.8 2.7 3.9 1.2
+ [84,] 6.0 2.7 5.1 1.6
+ [85,] 5.4 3.0 4.5 1.5
+ [86,] 6.0 3.4 4.5 1.6
+ [87,] 6.7 3.1 4.7 1.5
+ [88,] 6.3 2.3 4.4 1.3
+ [89,] 5.6 3.0 4.1 1.3
+ [90,] 5.5 2.5 4.0 1.3
+ [91,] 5.5 2.6 4.4 1.2
+ [92,] 6.1 3.0 4.6 1.4
+ [93,] 5.8 2.6 4.0 1.2
+ [94,] 5.0 2.3 3.3 1.0
+ [95,] 5.6 2.7 4.2 1.3
+ [96,] 5.7 3.0 4.2 1.2
+ [97,] 5.7 2.9 4.2 1.3
+ [98,] 6.2 2.9 4.3 1.3
+ [99,] 5.1 2.5 3.0 1.1
+[100,] 5.7 2.8 4.1 1.3
+[101,] 6.3 3.3 6.0 2.5
+[102,] 5.8 2.7 5.1 1.9
+[103,] 7.1 3.0 5.9 2.1
+[104,] 6.3 2.9 5.6 1.8
+[105,] 6.5 3.0 5.8 2.2
+[106,] 7.6 3.0 6.6 2.1
+[107,] 4.9 2.5 4.5 1.7
+[108,] 7.3 2.9 6.3 1.8
+[109,] 6.7 2.5 5.8 1.8
+[110,] 7.2 3.6 6.1 2.5
+[111,] 6.5 3.2 5.1 2.0
+[112,] 6.4 2.7 5.3 1.9
+[113,] 6.8 3.0 5.5 2.1
+[114,] 5.7 2.5 5.0 2.0
+[115,] 5.8 2.8 5.1 2.4
+[116,] 6.4 3.2 5.3 2.3
+[117,] 6.5 3.0 5.5 1.8
+[118,] 7.7 3.8 6.7 2.2
+[119,] 7.7 2.6 6.9 2.3
+[120,] 6.0 2.2 5.0 1.5
+[121,] 6.9 3.2 5.7 2.3
+[122,] 5.6 2.8 4.9 2.0
+[123,] 7.7 2.8 6.7 2.0
+[124,] 6.3 2.7 4.9 1.8
+[125,] 6.7 3.3 5.7 2.1
+[126,] 7.2 3.2 6.0 1.8
+[127,] 6.2 2.8 4.8 1.8
+[128,] 6.1 3.0 4.9 1.8
+[129,] 6.4 2.8 5.6 2.1
+[130,] 7.2 3.0 5.8 1.6
+[131,] 7.4 2.8 6.1 1.9
+[132,] 7.9 3.8 6.4 2.0
+[133,] 6.4 2.8 5.6 2.2
+[134,] 6.3 2.8 5.1 1.5
+[135,] 6.1 2.6 5.6 1.4
+[136,] 7.7 3.0 6.1 2.3
+[137,] 6.3 3.4 5.6 2.4
+[138,] 6.4 3.1 5.5 1.8
+[139,] 6.0 3.0 4.8 1.8
+[140,] 6.9 3.1 5.4 2.1
+[141,] 6.7 3.1 5.6 2.4
+[142,] 6.9 3.1 5.1 2.3
+[143,] 5.8 2.7 5.1 1.9
+[144,] 6.8 3.2 5.9 2.3
+[145,] 6.7 3.3 5.7 2.5
+[146,] 6.7 3.0 5.2 2.3
+[147,] 6.3 2.5 5.0 1.9
+[148,] 6.5 3.0 5.2 2.0
+[149,] 6.2 3.4 5.4 2.3
+[150,] 5.9 3.0 5.1 1.8
+[1] "hello Greg...welcome to R"
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 1.5 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+    SL  SW  PL  PW         Sp
+1  6.3 2.5 5.0 1.9  virginica
+2  6.3 2.7 4.9 1.8  virginica
+3  5.6 3.0 4.1 1.3 versicolor
+4  6.4 2.7 5.3 1.9  virginica
+5  5.5 2.3 4.0 1.3 versicolor
+6  4.8 3.4 1.6 0.2     setosa
+7  6.1 2.6 5.6 1.4  virginica
+8  5.1 3.4 1.5 0.2     setosa
+9  6.7 3.3 5.7 2.1  virginica
+10 5.6 2.7 4.2 1.3 versicolor
+11 6.9 3.1 4.9 1.5 versicolor
+12 5.4 3.7 1.5 0.2     setosa
+13 5.5 3.5 1.3 0.2     setosa
+14 6.0 3.4 4.5 1.6 versicolor
+15 4.5 2.3 1.3 0.3     setosa
+16 4.8 3.1 1.6 0.2     setosa
+17 6.1 3.0 4.9 1.8  virginica
+18 4.4 2.9 1.4 0.2     setosa
+19 4.6 3.4 1.4 0.3     setosa
+20 6.4 2.9 4.3 1.3 versicolor
+21 6.7 2.5 5.8 1.8  virginica
+22 6.0 2.7 5.1 1.6 versicolor
+23 4.6 3.2 1.4 0.2     setosa
+24 4.6 3.6 1.0 0.2     setosa
+25 7.1 3.0 5.9 2.1  virginica
+26 4.4 3.2 1.3 0.2     setosa
+27 6.7 3.1 4.7 1.5 versicolor
+28 5.2 3.4 1.4 0.2     setosa
+29 6.7 3.1 5.6 2.4  virginica
+30 5.5 2.4 3.7 1.0 versicolor
+31 5.0 3.5 1.6 0.6     setosa
+32 6.3 3.4 5.6 2.4  virginica
+33 5.8 2.6 4.0 1.2 versicolor
+34 5.6 2.5 3.9 1.1 versicolor
+35 4.8 3.4 1.9 0.2     setosa
+36 6.4 3.2 5.3 2.3  virginica
+37 6.1 3.0 4.6 1.4 versicolor
+38 5.2 2.7 3.9 1.4 versicolor
+39 4.4 3.0 1.3 0.2     setosa
+40 5.0 3.6 1.4 0.2     setosa
+41 6.8 3.0 5.5 2.1  virginica
+42 5.8 2.8 5.1 2.4  virginica
+43 5.1 3.8 1.6 0.2     setosa
+44 5.6 2.8 4.9 2.0  virginica
+45 6.2 2.2 4.5 1.5 versicolor
+46 5.0 3.4 1.5 0.2     setosa
+47 5.7 4.4 1.5 0.4     setosa
+48 5.0 3.2 1.2 0.2     setosa
+49 7.7 3.0 6.1 2.3  virginica
+50 5.8 2.7 5.1 1.9  virginica
+           Sp
+1   virginica
+2   virginica
+3  versicolor
+4   virginica
+5  versicolor
+6      setosa
+7   virginica
+8      setosa
+9   virginica
+10 versicolor
+11 versicolor
+12     setosa
+13     setosa
+14 versicolor
+15     setosa
+16     setosa
+17  virginica
+18     setosa
+19     setosa
+20 versicolor
+21  virginica
+22 versicolor
+23     setosa
+24     setosa
+25  virginica
+26     setosa
+27 versicolor
+28     setosa
+29  virginica
+30 versicolor
+31     setosa
+32  virginica
+33 versicolor
+34 versicolor
+35     setosa
+36  virginica
+37 versicolor
+38 versicolor
+39     setosa
+40     setosa
+41  virginica
+42  virginica
+43     setosa
+44  virginica
+45 versicolor
+46     setosa
+47     setosa
+48     setosa
+49  virginica
+50  virginica
+          Length Class  Mode     
+apriori   3      table  numeric  
+tables    4      -none- list     
+levels    3      -none- character
+isnumeric 4      -none- logical  
+call      4      -none- call     
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor virginica  versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor virginica  versicolor
+ [73] versicolor versicolor versicolor versicolor versicolor virginica 
+ [79] versicolor versicolor versicolor versicolor versicolor virginica 
+ [85] versicolor versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  versicolor virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  versicolor
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  virginica 
+[133] virginica  virginica  virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor versicolor versicolor
+ [73] versicolor versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor versicolor
+ [85] versicolor versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  virginica 
+[133] virginica  virginica  virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+Confusion Matrix and Statistics
+
+            Reference
+Prediction   setosa versicolor virginica
+  setosa         50          0         0
+  versicolor      0         46         2
+  virginica       0          4        48
+
+Overall Statistics
+                                         
+               Accuracy : 0.96           
+                 95% CI : (0.915, 0.9852)
+    No Information Rate : 0.3333         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.94           
+                                         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                 1.0000            0.9200           0.9600
+Specificity                 1.0000            0.9800           0.9600
+Pos Pred Value              1.0000            0.9583           0.9231
+Neg Pred Value              1.0000            0.9608           0.9796
+Prevalence                  0.3333            0.3333           0.3333
+Detection Rate              0.3333            0.3067           0.3200
+Detection Prevalence        0.3333            0.3200           0.3467
+Balanced Accuracy           1.0000            0.9500           0.9600
+[1] "goodbye Greg...leaving R"
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 "https://cran.rstudio.com/" 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+        SL         SW         PL         PW 
+ 0.5223716 -0.2633549  0.5812540  0.5656110 
+         SL          SW          PL          PW 
+-0.37231836 -0.92555649 -0.02109478 -0.06541577 
+        SL         SW         PL         PW 
+ 0.7210168 -0.2420329 -0.1408923 -0.6338014 
+        SL         SW         PL         PW 
+ 0.2619956 -0.1241348 -0.8011543  0.5235463 
+[1] "goodbye Greg...leaving R"
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 1.5 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+Importance of components:
+                          Comp.1    Comp.2     Comp.3      Comp.4
+Standard deviation     1.7061120 0.9598025 0.38386622 0.143553848
+Proportion of Variance 0.7277045 0.2303052 0.03683832 0.005151927
+Cumulative Proportion  0.7277045 0.9580098 0.99484807 1.000000000
+
+Loadings:
+   Comp.1 Comp.2 Comp.3 Comp.4
+SL  0.522  0.372  0.721  0.262
+SW -0.263  0.926 -0.242 -0.124
+PL  0.581        -0.141 -0.801
+PW  0.566        -0.634  0.524
+
+               Comp.1 Comp.2 Comp.3 Comp.4
+SS loadings      1.00   1.00   1.00   1.00
+Proportion Var   0.25   0.25   0.25   0.25
+Cumulative Var   0.25   0.50   0.75   1.00
+             Comp.1      Comp.2       Comp.3       Comp.4
+  [1,] -2.264541728  0.50570390  0.121943348  0.023073323
+  [2,] -2.086425501 -0.65540473  0.227250832  0.103208244
+  [3,] -2.367950449 -0.31847731 -0.051479624  0.027825225
+  [4,] -2.304197161 -0.57536771 -0.098860444 -0.066311462
+  [5,] -2.388777494  0.67476740 -0.021427849 -0.037397287
+  [6,] -2.070536807  1.51854856 -0.030684258  0.004398775
+  [7,] -2.445711340  0.07456268 -0.342197636 -0.038096567
+  [8,] -2.233841859  0.24761393  0.082574464 -0.025505162
+  [9,] -2.341957676 -1.09514636 -0.153562399 -0.026793829
+ [10,] -2.188675755 -0.44862905  0.246559522 -0.039907303
+ [11,] -2.163486556  1.07059558  0.264009373  0.015301138
+ [12,] -2.327377754  0.15858745 -0.100165616 -0.134554258
+ [13,] -2.224082722 -0.70911816  0.223214514  0.002630614
+ [14,] -2.639716261 -0.93828198 -0.189570030 -0.019422018
+ [15,] -2.192291508  1.88997851  0.469480095  0.192782042
+ [16,] -2.251465215  2.72237108 -0.032603797  0.047125704
+ [17,] -2.202750480  1.51375028  0.001363492  0.186631581
+ [18,] -2.190179164  0.51430431  0.038615595  0.091905507
+ [19,] -1.894074293  1.43111071  0.370742834  0.059528097
+ [20,] -2.339949070  1.15803343 -0.137417719 -0.039828184
+ [21,] -1.914556395  0.43046516  0.416006875  0.010360224
+ [22,] -2.204645398  0.95245732 -0.164738346  0.057729162
+ [23,] -2.774169794  0.48951703 -0.338836384  0.017853730
+ [24,] -1.820411563  0.10675079 -0.040061472  0.150345595
+ [25,] -2.228217499  0.16218616 -0.124201428 -0.271228863
+ [26,] -1.957024007 -0.60789257  0.298591029  0.043837289
+ [27,] -2.052063311  0.26601431 -0.092092979  0.066601003
+ [28,] -2.168193653  0.55201650  0.201295482  0.009260569
+ [29,] -2.140305963  0.33664041  0.265314545  0.083543934
+ [30,] -2.268790194 -0.31487860 -0.075515436 -0.108849380
+ [31,] -2.144554429 -0.48394210  0.067855761 -0.048378769
+ [32,] -1.831938102  0.44526684  0.265375244  0.239140994
+ [33,] -2.608202868  1.82847519 -0.051419518 -0.231922593
+ [34,] -2.437950859  2.18539162  0.079349755 -0.051021029
+ [35,] -2.188675755 -0.44862905  0.246559522 -0.039907303
+ [36,] -2.211119897 -0.18433781  0.218624528  0.168619769
+ [37,] -2.044416519  0.68495643  0.479411570  0.195613314
+ [38,] -2.188675755 -0.44862905  0.246559522 -0.039907303
+ [39,] -2.435952203 -0.88216941 -0.201557587 -0.009960791
+ [40,] -2.170547202  0.29272695  0.169938536  0.006240285
+ [41,] -2.286527239  0.46799172 -0.040736539  0.105718261
+ [42,] -1.871707224 -2.32769161  0.194528610  0.291692982
+ [43,] -2.557834420 -0.45381638 -0.313571838 -0.067411117
+ [44,] -1.964279290  0.49739164 -0.314755610  0.175540206
+ [45,] -2.133372833  1.17143211 -0.252793222 -0.153228807
+ [46,] -2.075357593 -0.69191735  0.056559008  0.140294980
+ [47,] -2.381258217  1.15063259 -0.062101903 -0.154218569
+ [48,] -2.398191688 -0.36239076 -0.146855632 -0.049478424
+ [49,] -2.226781213  1.02548255  0.176645302 -0.016444310
+ [50,] -2.205954169  0.03223785  0.146593527  0.048778202
+ [51,]  1.103993653  0.86311245  0.685555108  0.034977861
+ [52,]  0.732481440  0.59863557  0.094066802  0.004453764
+ [53,]  1.242109505  0.61482245  0.554846534  0.009673357
+ [54,]  0.397307283 -1.75816895  0.018569482  0.067397847
+ [55,]  1.072593948 -0.21175790  0.397447438  0.105541662
+ [56,]  0.384458146 -0.59106247 -0.126797690 -0.240528082
+ [57,]  0.748715076  0.77869861 -0.148656023 -0.078301067
+ [58,] -0.497863388 -1.84886877 -0.255555250 -0.039389139
+ [59,]  0.926222368  0.03033083  0.595459889 -0.029102420
+ [60,]  0.004968026 -1.02940111 -0.542867049 -0.028348763
+ [61,] -0.124697461 -2.65806268  0.039813448  0.016140557
+ [62,]  0.438730118 -0.05888129 -0.206703491  0.039851458
+ [63,]  0.551633981 -1.77258156  0.761380223  0.048353697
+ [64,]  0.717165066 -0.18543431  0.067299842 -0.164555675
+ [65,] -0.037258383 -0.43279510 -0.198061449  0.109025121
+ [66,]  0.875890536  0.50999815  0.503505832  0.105141287
+ [67,]  0.348006402 -0.19062165 -0.492831518 -0.192059489
+ [68,]  0.153392545 -0.79072546  0.298604516 -0.204321215
+ [69,]  1.215303209 -1.63335564  0.479409914  0.228214500
+ [70,]  0.156941176 -1.30310327  0.168586746 -0.050413197
+ [71,]  0.738256104  0.40247038 -0.616772626 -0.084451528
+ [72,]  0.472369682 -0.41660822  0.262718283  0.114244715
+ [73,]  1.227988214 -0.94091479  0.366704859 -0.008448348
+ [74,]  0.629381045 -0.41681164  0.289962474 -0.273494879
+ [75,]  0.700472799 -0.06349393  0.444767559  0.044081290
+ [76,]  0.873536987  0.25070861  0.472148886  0.102121003
+ [77,]  1.254222191 -0.08262010  0.726843529  0.040829418
+ [78,]  1.358239847  0.32882027  0.261458074  0.067013791
+ [79,]  0.662126138 -0.22434607 -0.087368107 -0.036352536
+ [80,] -0.047281513 -1.05721241  0.315319195  0.066007710
+ [81,]  0.121534209 -1.56359238  0.145241738 -0.007875280
+ [82,]  0.014118226 -1.57339235  0.236581428 -0.031149262
+ [83,]  0.236010837 -0.77592378  0.147972885  0.024459555
+ [84,]  1.056691428 -0.63690128 -0.106753234 -0.183419236
+ [85,]  0.221417088 -0.28084769 -0.667559660 -0.255550383
+ [86,]  0.431783161  0.85513692 -0.450731487 -0.111146169
+ [87,]  1.049413355  0.52219726  0.396142266  0.037298866
+ [88,]  1.035878210 -1.39246648  0.685434303  0.139128619
+ [89,]  0.067067600 -0.21262073 -0.294128262 -0.147491049
+ [90,]  0.275425066 -1.32981591 -0.093444769  0.009947521
+ [91,]  0.272335066 -1.11944152 -0.098171891 -0.269842632
+ [92,]  0.623170540  0.02754263  0.019304654 -0.147722637
+ [93,]  0.330005364 -0.98890073  0.195968073  0.007626516
+ [94,] -0.373627623 -2.01793227 -0.112184053  0.021081471
+ [95,]  0.282944343 -0.85395072 -0.134118823 -0.106873761
+ [96,]  0.089053110 -0.17490855 -0.131448375 -0.230135987
+ [97,]  0.224356783 -0.38048466 -0.158769003 -0.132578640
+ [98,]  0.573883486 -0.15371997  0.270039416 -0.019409605
+ [99,] -0.457012873 -1.53946451 -0.196126173  0.200883380
+[100,]  0.252244473 -0.59586075 -0.094749940 -0.058295276
+[101,]  1.847672594  0.87169666 -1.002760986 -0.051068037
+[102,]  1.153189808 -0.70132611 -0.531464635 -0.040413581
+[103,]  2.206349497  0.55447010  0.205495910  0.059300500
+[104,]  1.438685402 -0.05001052 -0.163390464 -0.235759861
+[105,]  1.867890703  0.29119280 -0.394004333 -0.016781800
+[106,]  2.754196709  0.78843221  0.586232704 -0.100879674
+[107,]  0.358374475 -1.56009458 -0.990999895 -0.132987438
+[108,]  2.303005898  0.40951670  0.654166687 -0.237212798
+[109,]  2.001735299 -0.72386536  0.394070448 -0.084993822
+[110,]  2.267554599  1.92144299 -0.392517658  0.102907298
+[111,]  1.365909429  0.69394804 -0.283279516  0.107010918
+[112,]  1.599064586 -0.42824884 -0.023304082  0.058942700
+[113,]  1.884251854  0.41433276 -0.024548554  0.146296964
+[114,]  1.253086514 -1.16739134 -0.582130271  0.099681683
+[115,]  1.464061523 -0.44414757 -1.004110525  0.275022173
+[116,]  1.591809303  0.67703537 -0.636650721  0.190645618
+[117,]  1.471280189  0.25319247 -0.036657509 -0.155435928
+[118,]  2.437378482  2.55675734  0.134200082 -0.275661550
+[119,]  3.309141183 -0.00236132  0.706933959  0.046756188
+[120,]  1.253980987 -1.71758384  0.264622084 -0.063067402
+[121,]  2.040496260  0.90739877 -0.231878114  0.167140048
+[122,]  0.973915114 -0.57117438 -0.829503781  0.027318948
+[123,]  2.898064436  0.39779136  0.860926842 -0.126074286
+[124,]  1.329193691 -0.48676054  0.004707349  0.140597876
+[125,]  1.704240709  1.01414842 -0.295957877 -0.062740376
+[126,]  1.957727662  1.00333452  0.422817052 -0.218459131
+[127,]  1.171904508 -0.31889662 -0.130651910  0.125685467
+[128,]  1.019781053  0.06554296 -0.338042170 -0.009068508
+[129,]  1.786008861 -0.19327280 -0.270002526  0.031207299
+[130,]  1.864777913  0.55538153  0.717510683 -0.207556768
+[131,]  2.435497391  0.24665447  0.730234006 -0.016793602
+[132,]  2.316082412  2.62618387  0.499619543 -0.213160418
+[133,]  1.860371426 -0.18467239 -0.353330279  0.100039482
+[134,]  1.111271726 -0.29598610  0.182659608 -0.185740240
+[135,]  1.197469155 -0.81716774  0.163213782 -0.488404000
+[136,]  2.800949404  0.84474819  0.547000957  0.296321147
+[137,]  1.580155249  1.07247450 -0.943392608  0.033607423
+[138,]  1.347044424  0.42225597 -0.180028706 -0.215906539
+[139,]  0.923432978  0.01923037 -0.417394303  0.004744246
+[140,]  1.853551984  0.67242273  0.014820329  0.194875449
+[141,]  2.016157201  0.61039704 -0.425914947  0.246764702
+[142,]  1.903116859  0.68602483 -0.127799364  0.469214421
+[143,]  1.153189808 -0.70132611 -0.531464635 -0.040413581
+[144,]  2.043308439  0.86468488 -0.335266061  0.044278198
+[145,]  2.001690967  1.04855005 -0.629268888  0.212588357
+[146,]  1.870522071  0.38282184 -0.254532319  0.388890487
+[147,]  1.558491891 -0.90531360  0.025381910  0.221322184
+[148,]  1.520845064  0.26679457 -0.179277203  0.118903043
+[149,]  1.376391191  1.01636193 -0.931405052  0.024146195
+[150,]  0.959298576 -0.02228394 -0.528794187 -0.163675806
+[1] "goodbye Greg...leaving R"
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 1.5 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+    SL  SW  PL  PW         Sp
+1  6.8 2.8 4.8 1.4 versicolor
+2  6.7 3.0 5.2 2.3  virginica
+3  5.2 4.1 1.5 0.1     setosa
+4  5.0 3.5 1.3 0.3     setosa
+5  5.0 2.3 3.3 1.0 versicolor
+6  4.9 2.5 4.5 1.7  virginica
+7  5.5 3.5 1.3 0.2     setosa
+8  4.9 3.0 1.4 0.2     setosa
+9  4.3 3.0 1.1 0.1     setosa
+10 6.1 3.0 4.6 1.4 versicolor
+11 4.6 3.4 1.4 0.3     setosa
+12 4.6 3.1 1.5 0.2     setosa
+13 5.6 2.5 3.9 1.1 versicolor
+14 4.6 3.2 1.4 0.2     setosa
+15 5.7 2.8 4.1 1.3 versicolor
+16 6.4 2.8 5.6 2.2  virginica
+17 7.7 3.0 6.1 2.3  virginica
+18 6.6 2.9 4.6 1.3 versicolor
+19 5.0 3.2 1.2 0.2     setosa
+20 5.8 4.0 1.2 0.2     setosa
+21 5.6 3.0 4.1 1.3 versicolor
+22 6.9 3.2 5.7 2.3  virginica
+23 5.1 3.5 1.4 0.2     setosa
+24 7.2 3.0 5.8 1.6  virginica
+25 6.7 2.5 5.8 1.8  virginica
+26 7.7 2.6 6.9 2.3  virginica
+27 6.4 3.2 5.3 2.3  virginica
+28 6.9 3.1 5.4 2.1  virginica
+29 6.5 3.0 5.5 1.8  virginica
+30 5.4 3.9 1.7 0.4     setosa
+31 5.4 3.4 1.5 0.4     setosa
+32 6.7 3.0 5.0 1.7 versicolor
+33 5.8 2.7 4.1 1.0 versicolor
+34 5.1 3.4 1.5 0.2     setosa
+35 4.8 3.0 1.4 0.1     setosa
+36 4.9 2.4 3.3 1.0 versicolor
+37 6.9 3.1 4.9 1.5 versicolor
+38 5.6 2.9 3.6 1.3 versicolor
+39 6.2 3.4 5.4 2.3  virginica
+40 5.4 3.9 1.3 0.4     setosa
+41 6.7 3.1 5.6 2.4  virginica
+42 4.8 3.4 1.9 0.2     setosa
+43 5.1 3.8 1.6 0.2     setosa
+44 5.0 3.5 1.6 0.6     setosa
+45 5.7 2.9 4.2 1.3 versicolor
+46 6.7 3.3 5.7 2.5  virginica
+47 7.0 3.2 4.7 1.4 versicolor
+48 5.6 2.7 4.2 1.3 versicolor
+49 5.7 3.0 4.2 1.2 versicolor
+50 4.6 3.6 1.0 0.2     setosa
+Call:
+qda(Sp ~ SL + SW + PL + PW, data = mysample)
+
+Prior probabilities of groups:
+    setosa versicolor  virginica 
+      0.40       0.32       0.28 
+
+Group means:
+                 SL       SW       PL       PW
+setosa     5.010000 3.470000 1.410000 0.245000
+versicolor 5.956250 2.825000 4.225000 1.281250
+virginica  6.685714 2.978571 5.607143 2.135714
+$class
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor virginica  versicolor
+ [73] virginica  versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor virginica 
+ [85] virginica  versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  versicolor
+[133] virginica  virginica  virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+
+$posterior
+          setosa   versicolor    virginica
+1   1.000000e+00 4.000626e-10 3.380273e-09
+2   1.000000e+00 1.713736e-08 1.337960e-08
+3   1.000000e+00 3.476294e-09 7.444813e-09
+4   9.999999e-01 2.386571e-08 2.653220e-08
+5   1.000000e+00 3.490645e-10 4.555661e-09
+6   1.000000e+00 8.912292e-10 2.490488e-08
+7   1.000000e+00 6.610827e-09 2.918291e-08
+8   1.000000e+00 1.245602e-09 6.486567e-09
+9   9.999998e-01 1.346821e-07 4.938320e-08
+10  1.000000e+00 1.401501e-08 2.303246e-08
+11  1.000000e+00 2.685086e-10 4.930494e-09
+12  1.000000e+00 4.409305e-09 2.253744e-08
+13  1.000000e+00 1.792378e-08 1.829522e-08
+14  9.999999e-01 4.047027e-08 4.303346e-08
+15  1.000000e+00 1.104192e-10 6.027927e-09
+16  1.000000e+00 1.880409e-10 2.837694e-08
+17  1.000000e+00 2.154091e-10 7.070248e-09
+18  1.000000e+00 5.509511e-10 3.876103e-09
+19  1.000000e+00 1.011731e-09 2.126933e-08
+20  1.000000e+00 3.661989e-10 8.865087e-09
+21  1.000000e+00 8.352110e-09 4.153859e-08
+22  1.000000e+00 9.728172e-10 1.356602e-08
+23  9.999999e-01 3.176284e-09 4.960189e-08
+24  9.999997e-01 1.122150e-07 1.707101e-07
+25  9.999994e-01 1.060144e-07 5.363377e-07
+26  9.999999e-01 7.236131e-08 5.023420e-08
+27  1.000000e+00 8.295748e-09 2.677339e-08
+28  1.000000e+00 6.305178e-10 5.141551e-09
+29  1.000000e+00 7.051227e-10 3.882970e-09
+30  9.999999e-01 1.848234e-08 3.409970e-08
+31  9.999999e-01 3.013874e-08 3.297458e-08
+32  1.000000e+00 3.784280e-09 1.429292e-08
+33  1.000000e+00 4.467398e-10 4.204492e-08
+34  1.000000e+00 1.048690e-10 1.097413e-08
+35  1.000000e+00 1.401501e-08 2.303246e-08
+36  1.000000e+00 1.798677e-09 4.442682e-09
+37  1.000000e+00 5.016596e-10 4.540428e-09
+38  1.000000e+00 1.401501e-08 2.303246e-08
+39  9.999999e-01 4.461602e-08 3.132512e-08
+40  1.000000e+00 1.143846e-09 5.976907e-09
+41  1.000000e+00 5.737413e-10 4.261194e-09
+42  9.999497e-01 4.956245e-05 7.315383e-07
+43  9.999999e-01 1.670151e-08 3.482950e-08
+44  9.999994e-01 1.133623e-07 4.826887e-07
+45  9.999997e-01 1.716002e-08 3.179799e-07
+46  9.999999e-01 3.251211e-08 1.867511e-08
+47  1.000000e+00 5.747680e-10 1.615329e-08
+48  1.000000e+00 7.387023e-09 1.476039e-08
+49  1.000000e+00 2.587736e-10 4.798798e-09
+50  1.000000e+00 1.355024e-09 4.638209e-09
+51  5.656712e-12 9.978323e-01 2.167689e-03
+52  7.252027e-12 9.951047e-01 4.895273e-03
+53  3.976170e-13 9.969084e-01 3.091587e-03
+54  6.625286e-10 9.927205e-01 7.279503e-03
+55  2.544088e-12 9.954696e-01 4.530386e-03
+56  3.323273e-11 9.470755e-01 5.292454e-02
+57  6.968056e-12 9.494208e-01 5.057916e-02
+58  1.204549e-08 9.999205e-01 7.950025e-05
+59  2.074861e-12 9.990925e-01 9.075199e-04
+60  4.847431e-10 9.825996e-01 1.740035e-02
+61  3.644660e-08 9.989442e-01 1.055721e-03
+62  3.898727e-11 9.915459e-01 8.454102e-03
+63  1.572663e-09 9.986800e-01 1.319961e-03
+64  3.585631e-12 9.711959e-01 2.880406e-02
+65  6.074293e-09 9.986593e-01 1.340655e-03
+66  2.342043e-11 9.985887e-01 1.411277e-03
+67  5.049821e-11 7.244677e-01 2.755323e-01
+68  2.860698e-10 9.986724e-01 1.327561e-03
+69  7.389799e-10 7.721572e-01 2.278428e-01
+70  1.368002e-10 9.997830e-01 2.170432e-04
+71  5.581232e-12 5.062205e-02 9.493779e-01
+72  8.506973e-11 9.996810e-01 3.189824e-04
+73  1.353732e-11 3.907822e-01 6.092178e-01
+74  2.286380e-11 9.520961e-01 4.790392e-02
+75  1.041237e-11 9.996138e-01 3.862498e-04
+76  9.424194e-12 9.991407e-01 8.592921e-04
+77  1.092171e-12 9.967863e-01 3.213696e-03
+78  9.769430e-13 8.416213e-01 1.583787e-01
+79  5.519107e-12 9.802336e-01 1.976642e-02
+80  1.485194e-08 9.998647e-01 1.352773e-04
+81  3.427178e-10 9.997859e-01 2.141150e-04
+82  9.971450e-10 9.998707e-01 1.293021e-04
+83  8.346048e-11 9.998554e-01 1.446418e-04
+84  1.345249e-12 1.166608e-02 9.883339e-01
+85  1.221949e-10 3.834815e-01 6.165185e-01
+86  1.081280e-10 8.293304e-01 1.706696e-01
+87  1.051070e-12 9.976400e-01 2.359957e-03
+88  1.425329e-10 9.901600e-01 9.840021e-03
+89  8.908470e-11 9.966258e-01 3.374243e-03
+90  1.243929e-10 9.977919e-01 2.208095e-03
+91  1.922356e-10 8.966164e-01 1.033836e-01
+92  3.253270e-12 9.910974e-01 8.902587e-03
+93  4.170600e-11 9.997937e-01 2.062857e-04
+94  1.524885e-08 9.999265e-01 7.345734e-05
+95  2.668424e-11 9.962768e-01 3.723244e-03
+96  1.114588e-10 9.962231e-01 3.776895e-03
+97  2.215092e-11 9.978791e-01 2.120907e-03
+98  6.249365e-12 9.995703e-01 4.296510e-04
+99  9.974271e-07 9.996944e-01 3.046050e-04
+100 2.129003e-11 9.991909e-01 8.091429e-04
+101 1.786529e-13 4.659928e-05 9.999534e-01
+102 3.393975e-13 2.018922e-04 9.997981e-01
+103 5.190311e-15 2.415850e-04 9.997584e-01
+104 1.497235e-13 1.102594e-03 9.988974e-01
+105 1.514957e-14 3.238795e-05 9.999676e-01
+106 4.003335e-15 2.067999e-04 9.997932e-01
+107 4.944387e-11 1.248410e-03 9.987516e-01
+108 1.824570e-14 8.964812e-04 9.991035e-01
+109 2.926483e-14 9.104772e-05 9.999090e-01
+110 2.831127e-14 2.761394e-04 9.997239e-01
+111 3.472985e-13 8.352712e-03 9.916473e-01
+112 1.134254e-13 7.112997e-04 9.992887e-01
+113 2.089532e-14 3.946331e-04 9.996054e-01
+114 9.535129e-13 7.590225e-05 9.999241e-01
+115 1.818319e-13 3.660123e-06 9.999963e-01
+116 3.293014e-14 3.035724e-05 9.999696e-01
+117 1.288921e-13 7.410102e-03 9.925899e-01
+118 8.561127e-13 1.928783e-01 8.071217e-01
+119 1.911653e-15 4.135259e-06 9.999959e-01
+120 1.463457e-11 7.890402e-03 9.921096e-01
+121 7.575218e-15 6.005609e-05 9.999399e-01
+122 6.215322e-13 1.211727e-04 9.998788e-01
+123 3.026986e-15 7.281220e-05 9.999272e-01
+124 3.627285e-12 4.312951e-02 9.568705e-01
+125 5.962253e-14 1.825050e-03 9.981750e-01
+126 1.061342e-13 5.359194e-02 9.464081e-01
+127 5.017540e-12 7.071430e-02 9.292857e-01
+128 1.574065e-12 3.915259e-02 9.608474e-01
+129 1.701762e-14 2.740908e-05 9.999726e-01
+130 1.946932e-13 1.132865e-01 8.867135e-01
+131 6.645904e-15 5.917272e-04 9.994083e-01
+132 3.370809e-13 7.273942e-01 2.726058e-01
+133 1.477706e-14 1.127832e-05 9.999887e-01
+134 2.528477e-12 2.654461e-01 7.345539e-01
+135 2.075261e-12 8.811762e-04 9.991188e-01
+136 3.835446e-15 1.352478e-04 9.998648e-01
+137 9.572783e-14 5.376346e-05 9.999462e-01
+138 3.172810e-13 1.246358e-02 9.875364e-01
+139 2.810745e-12 4.073007e-02 9.592699e-01
+140 5.408676e-14 1.814677e-03 9.981853e-01
+141 7.992888e-15 8.390382e-06 9.999916e-01
+142 6.743011e-13 5.004115e-04 9.994996e-01
+143 3.393975e-13 2.018922e-04 9.997981e-01
+144 9.887395e-15 5.861220e-05 9.999414e-01
+145 1.006878e-14 8.350648e-06 9.999916e-01
+146 1.418919e-13 1.014008e-04 9.998986e-01
+147 3.079964e-12 3.413206e-03 9.965868e-01
+148 1.243584e-13 2.044433e-03 9.979556e-01
+149 1.503759e-13 1.078892e-04 9.998921e-01
+150 8.806214e-13 4.969941e-03 9.950301e-01
+
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor virginica  versicolor
+ [73] virginica  versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor virginica 
+ [85] virginica  versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  versicolor
+[133] virginica  virginica  virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+        Length Class  Mode     
+prior    3     -none- numeric  
+counts   3     -none- numeric  
+means   12     -none- numeric  
+scaling 48     -none- numeric  
+ldet     3     -none- numeric  
+lev      3     -none- character
+N        1     -none- numeric  
+call     3     -none- call     
+terms    3     terms  call     
+xlevels  0     -none- list     
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor virginica  versicolor
+ [73] virginica  versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor virginica 
+ [85] virginica  versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  versicolor
+[133] virginica  virginica  virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+  [1] setosa     setosa     setosa     setosa     setosa     setosa    
+  [7] setosa     setosa     setosa     setosa     setosa     setosa    
+ [13] setosa     setosa     setosa     setosa     setosa     setosa    
+ [19] setosa     setosa     setosa     setosa     setosa     setosa    
+ [25] setosa     setosa     setosa     setosa     setosa     setosa    
+ [31] setosa     setosa     setosa     setosa     setosa     setosa    
+ [37] setosa     setosa     setosa     setosa     setosa     setosa    
+ [43] setosa     setosa     setosa     setosa     setosa     setosa    
+ [49] setosa     setosa     versicolor versicolor versicolor versicolor
+ [55] versicolor versicolor versicolor versicolor versicolor versicolor
+ [61] versicolor versicolor versicolor versicolor versicolor versicolor
+ [67] versicolor versicolor versicolor versicolor versicolor versicolor
+ [73] versicolor versicolor versicolor versicolor versicolor versicolor
+ [79] versicolor versicolor versicolor versicolor versicolor versicolor
+ [85] versicolor versicolor versicolor versicolor versicolor versicolor
+ [91] versicolor versicolor versicolor versicolor versicolor versicolor
+ [97] versicolor versicolor versicolor versicolor virginica  virginica 
+[103] virginica  virginica  virginica  virginica  virginica  virginica 
+[109] virginica  virginica  virginica  virginica  virginica  virginica 
+[115] virginica  virginica  virginica  virginica  virginica  virginica 
+[121] virginica  virginica  virginica  virginica  virginica  virginica 
+[127] virginica  virginica  virginica  virginica  virginica  virginica 
+[133] virginica  virginica  virginica  virginica  virginica  virginica 
+[139] virginica  virginica  virginica  virginica  virginica  virginica 
+[145] virginica  virginica  virginica  virginica  virginica  virginica 
+Levels: setosa versicolor virginica
+Confusion Matrix and Statistics
+
+            Reference
+Prediction   setosa versicolor virginica
+  setosa         50          0         0
+  versicolor      0         46         1
+  virginica       0          4        49
+
+Overall Statistics
+                                          
+               Accuracy : 0.9667          
+                 95% CI : (0.9239, 0.9891)
+    No Information Rate : 0.3333          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.95            
+                                          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: setosa Class: versicolor Class: virginica
+Sensitivity                 1.0000            0.9200           0.9800
+Specificity                 1.0000            0.9900           0.9600
+Pos Pred Value              1.0000            0.9787           0.9245
+Neg Pred Value              1.0000            0.9612           0.9897
+Prevalence                  0.3333            0.3333           0.3333
+Detection Rate              0.3333            0.3067           0.3267
+Detection Prevalence        0.3333            0.3133           0.3533
+Balanced Accuracy           1.0000            0.9550           0.9700
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 1.5 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+    SL  SW  PL  PW         Sp
+1  5.5 4.2 1.4 0.2     setosa
+2  5.5 2.3 4.0 1.3 versicolor
+3  4.7 3.2 1.3 0.2     setosa
+4  6.8 2.8 4.8 1.4 versicolor
+5  5.6 3.0 4.5 1.5 versicolor
+6  7.0 3.2 4.7 1.4 versicolor
+7  6.2 3.4 5.4 2.3  virginica
+8  5.1 3.4 1.5 0.2     setosa
+9  5.0 3.4 1.6 0.4     setosa
+10 5.8 2.8 5.1 2.4  virginica
+11 7.4 2.8 6.1 1.9  virginica
+12 5.2 2.7 3.9 1.4 versicolor
+13 5.8 2.7 5.1 1.9  virginica
+14 4.6 3.1 1.5 0.2     setosa
+15 5.5 3.5 1.3 0.2     setosa
+16 5.4 3.9 1.3 0.4     setosa
+17 6.7 2.5 5.8 1.8  virginica
+18 5.2 4.1 1.5 0.1     setosa
+19 4.6 3.4 1.4 0.3     setosa
+20 6.6 3.0 4.4 1.4 versicolor
+21 6.1 2.6 5.6 1.4  virginica
+22 4.9 2.4 3.3 1.0 versicolor
+23 7.7 2.8 6.7 2.0  virginica
+24 6.8 3.0 5.5 2.1  virginica
+25 5.1 3.8 1.9 0.4     setosa
+26 6.7 3.0 5.0 1.7 versicolor
+27 5.8 4.0 1.2 0.2     setosa
+28 6.6 2.9 4.6 1.3 versicolor
+29 5.4 3.4 1.5 0.4     setosa
+30 5.6 2.9 3.6 1.3 versicolor
+31 7.2 3.6 6.1 2.5  virginica
+32 5.7 2.8 4.1 1.3 versicolor
+33 6.4 2.7 5.3 1.9  virginica
+34 5.1 3.8 1.5 0.3     setosa
+35 5.1 3.5 1.4 0.2     setosa
+36 6.0 2.9 4.5 1.5 versicolor
+37 5.9 3.0 4.2 1.5 versicolor
+38 4.9 2.5 4.5 1.7  virginica
+39 6.2 2.2 4.5 1.5 versicolor
+40 5.7 2.9 4.2 1.3 versicolor
+41 6.9 3.1 5.4 2.1  virginica
+42 6.4 2.9 4.3 1.3 versicolor
+43 6.7 3.3 5.7 2.1  virginica
+44 5.9 3.2 4.8 1.8 versicolor
+45 5.1 3.8 1.6 0.2     setosa
+46 5.8 2.6 4.0 1.2 versicolor
+47 5.2 3.4 1.4 0.2     setosa
+48 5.7 4.4 1.5 0.4     setosa
+49 6.0 2.2 4.0 1.0 versicolor
+50 7.7 3.8 6.7 2.2  virginica
+           Sp
+1      setosa
+2  versicolor
+3      setosa
+4  versicolor
+5  versicolor
+6  versicolor
+7   virginica
+8      setosa
+9      setosa
+10  virginica
+11  virginica
+12 versicolor
+13  virginica
+14     setosa
+15     setosa
+16     setosa
+17  virginica
+18     setosa
+19     setosa
+20 versicolor
+21  virginica
+22 versicolor
+23  virginica
+24  virginica
+25     setosa
+26 versicolor
+27     setosa
+28 versicolor
+29     setosa
+30 versicolor
+31  virginica
+32 versicolor
+33  virginica
+34     setosa
+35     setosa
+36 versicolor
+37 versicolor
+38  virginica
+39 versicolor
+40 versicolor
+41  virginica
+42 versicolor
+43  virginica
+44 versicolor
+45     setosa
+46 versicolor
+47     setosa
+48     setosa
+49 versicolor
+50  virginica
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 1.5 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+    SL  SW  PL  PW         Sp
+1  4.9 2.5 4.5 1.7  virginica
+2  6.0 2.2 5.0 1.5  virginica
+3  7.2 3.0 5.8 1.6  virginica
+4  6.2 2.9 4.3 1.3 versicolor
+5  5.2 3.4 1.4 0.2     setosa
+6  5.1 3.8 1.9 0.4     setosa
+7  6.2 2.8 4.8 1.8  virginica
+8  5.0 3.5 1.3 0.3     setosa
+9  5.6 3.0 4.5 1.5 versicolor
+10 6.9 3.2 5.7 2.3  virginica
+11 4.3 3.0 1.1 0.1     setosa
+12 6.3 3.3 4.7 1.6 versicolor
+13 5.4 3.9 1.7 0.4     setosa
+14 6.3 2.9 5.6 1.8  virginica
+15 6.1 2.9 4.7 1.4 versicolor
+16 4.9 3.0 1.4 0.2     setosa
+17 6.8 2.8 4.8 1.4 versicolor
+18 6.1 3.0 4.9 1.8  virginica
+19 7.2 3.6 6.1 2.5  virginica
+20 4.8 3.0 1.4 0.1     setosa
+21 5.0 3.6 1.4 0.2     setosa
+22 5.0 3.3 1.4 0.2     setosa
+23 5.5 2.3 4.0 1.3 versicolor
+24 6.4 2.8 5.6 2.2  virginica
+25 5.8 2.6 4.0 1.2 versicolor
+26 5.7 4.4 1.5 0.4     setosa
+27 7.0 3.2 4.7 1.4 versicolor
+28 5.4 3.4 1.7 0.2     setosa
+29 4.8 3.4 1.9 0.2     setosa
+30 5.3 3.7 1.5 0.2     setosa
+31 5.7 2.9 4.2 1.3 versicolor
+32 5.1 3.8 1.6 0.2     setosa
+33 4.9 3.1 1.5 0.1     setosa
+34 5.9 3.0 4.2 1.5 versicolor
+35 6.3 2.5 5.0 1.9  virginica
+36 5.6 2.5 3.9 1.1 versicolor
+37 4.9 3.1 1.5 0.1     setosa
+38 6.4 3.1 5.5 1.8  virginica
+39 6.4 3.2 4.5 1.5 versicolor
+40 5.5 2.5 4.0 1.3 versicolor
+41 6.0 2.2 4.0 1.0 versicolor
+42 6.1 2.6 5.6 1.4  virginica
+43 5.6 2.9 3.6 1.3 versicolor
+44 4.9 2.4 3.3 1.0 versicolor
+45 5.7 3.0 4.2 1.2 versicolor
+46 6.0 3.4 4.5 1.6 versicolor
+47 5.0 2.0 3.5 1.0 versicolor
+48 6.2 3.4 5.4 2.3  virginica
+49 4.4 3.0 1.3 0.2     setosa
+50 5.8 2.7 5.1 1.9  virginica
+           Sp
+1   virginica
+2   virginica
+3   virginica
+4  versicolor
+5      setosa
+6      setosa
+7   virginica
+8      setosa
+9  versicolor
+10  virginica
+11     setosa
+12 versicolor
+13     setosa
+14  virginica
+15 versicolor
+16     setosa
+17 versicolor
+18  virginica
+19  virginica
+20     setosa
+21     setosa
+22     setosa
+23 versicolor
+24  virginica
+25 versicolor
+26     setosa
+27 versicolor
+28     setosa
+29     setosa
+30     setosa
+31 versicolor
+32     setosa
+33     setosa
+34 versicolor
+35  virginica
+36 versicolor
+37     setosa
+38  virginica
+39 versicolor
+40 versicolor
+41 versicolor
+42  virginica
+43 versicolor
+44 versicolor
+45 versicolor
+46 versicolor
+47 versicolor
+48  virginica
+49     setosa
+50  virginica
+[1] "hello Greg...welcome to R"
+     SL  SW  PL  PW
+1   5.1 3.5 1.4 0.2
+2   4.9 3.0 1.4 0.2
+3   4.7 3.2 1.3 0.2
+4   4.6 3.1 1.5 0.2
+5   5.0 3.6 1.4 0.2
+6   5.4 3.9 1.7 0.4
+7   4.6 3.4 1.4 0.3
+8   5.0 3.4 1.5 0.2
+9   4.4 2.9 1.4 0.2
+10  4.9 3.1 1.5 0.1
+11  5.4 3.7 1.5 0.2
+12  4.8 3.4 1.6 0.2
+13  4.8 3.0 1.4 0.1
+14  4.3 3.0 1.1 0.1
+15  5.8 4.0 1.2 0.2
+16  5.7 4.4 1.5 0.4
+17  5.4 3.9 1.3 0.4
+18  5.1 3.5 1.4 0.3
+19  5.7 3.8 1.7 0.3
+20  5.1 3.8 1.5 0.3
+21  5.4 3.4 1.7 0.2
+22  5.1 3.7 1.5 0.4
+23  4.6 3.6 1.0 0.2
+24  5.1 3.3 1.7 0.5
+25  4.8 3.4 1.9 0.2
+26  5.0 3.0 1.6 0.2
+27  5.0 3.4 1.6 0.4
+28  5.2 3.5 1.5 0.2
+29  5.2 3.4 1.4 0.2
+30  4.7 3.2 1.6 0.2
+31  4.8 3.1 1.6 0.2
+32  5.4 3.4 1.5 0.4
+33  5.2 4.1 1.5 0.1
+34  5.5 4.2 1.4 0.2
+35  4.9 3.1 1.5 0.1
+36  5.0 3.2 1.2 0.2
+37  5.5 3.5 1.3 0.2
+38  4.9 3.1 1.5 0.1
+39  4.4 3.0 1.3 0.2
+40  5.1 3.4 1.5 0.2
+41  5.0 3.5 1.3 0.3
+42  4.5 2.3 1.3 0.3
+43  4.4 3.2 1.3 0.2
+44  5.0 3.5 1.6 0.6
+45  5.1 3.8 1.9 0.4
+46  4.8 3.0 1.4 0.3
+47  5.1 3.8 1.6 0.2
+48  4.6 3.2 1.4 0.2
+49  5.3 3.7 1.5 0.2
+50  5.0 3.3 1.4 0.2
+51  7.0 3.2 4.7 1.4
+52  6.4 3.2 4.5 1.5
+53  6.9 3.1 4.9 1.5
+54  5.5 2.3 4.0 1.3
+55  6.5 2.8 4.6 1.5
+56  5.7 2.8 4.5 1.3
+57  6.3 3.3 4.7 1.6
+58  4.9 2.4 3.3 1.0
+59  6.6 2.9 4.6 1.3
+60  5.2 2.7 3.9 1.4
+61  5.0 2.0 3.5 1.0
+62  5.9 3.0 4.2 1.5
+63  6.0 2.2 4.0 1.0
+64  6.1 2.9 4.7 1.4
+65  5.6 2.9 3.6 1.3
+66  6.7 3.1 4.4 1.4
+67  5.6 3.0 4.5 1.5
+68  5.8 2.7 4.1 1.0
+69  6.2 2.2 4.5 1.5
+70  5.6 2.5 3.9 1.1
+71  5.9 3.2 4.8 1.8
+72  6.1 2.8 4.0 1.3
+73  6.3 2.5 4.9 1.5
+74  6.1 2.8 4.7 1.2
+75  6.4 2.9 4.3 1.3
+76  6.6 3.0 4.4 1.4
+77  6.8 2.8 4.8 1.4
+78  6.7 3.0 5.0 1.7
+79  6.0 2.9 4.5 1.5
+80  5.7 2.6 3.5 1.0
+81  5.5 2.4 3.8 1.1
+82  5.5 2.4 3.7 1.0
+83  5.8 2.7 3.9 1.2
+84  6.0 2.7 5.1 1.6
+85  5.4 3.0 4.5 1.5
+86  6.0 3.4 4.5 1.6
+87  6.7 3.1 4.7 1.5
+88  6.3 2.3 4.4 1.3
+89  5.6 3.0 4.1 1.3
+90  5.5 2.5 4.0 1.3
+91  5.5 2.6 4.4 1.2
+92  6.1 3.0 4.6 1.4
+93  5.8 2.6 4.0 1.2
+94  5.0 2.3 3.3 1.0
+95  5.6 2.7 4.2 1.3
+96  5.7 3.0 4.2 1.2
+97  5.7 2.9 4.2 1.3
+98  6.2 2.9 4.3 1.3
+99  5.1 2.5 3.0 1.1
+100 5.7 2.8 4.1 1.3
+101 6.3 3.3 6.0 2.5
+102 5.8 2.7 5.1 1.9
+103 7.1 3.0 5.9 2.1
+104 6.3 2.9 5.6 1.8
+105 6.5 3.0 5.8 2.2
+106 7.6 3.0 6.6 2.1
+107 4.9 2.5 4.5 1.7
+108 7.3 2.9 6.3 1.8
+109 6.7 2.5 5.8 1.8
+110 7.2 3.6 6.1 2.5
+111 6.5 3.2 5.1 2.0
+112 6.4 2.7 5.3 1.9
+113 6.8 3.0 5.5 2.1
+114 5.7 2.5 5.0 2.0
+115 5.8 2.8 5.1 2.4
+116 6.4 3.2 5.3 2.3
+117 6.5 3.0 5.5 1.8
+118 7.7 3.8 6.7 2.2
+119 7.7 2.6 6.9 2.3
+120 6.0 2.2 5.0 1.5
+121 6.9 3.2 5.7 2.3
+122 5.6 2.8 4.9 2.0
+123 7.7 2.8 6.7 2.0
+124 6.3 2.7 4.9 1.8
+125 6.7 3.3 5.7 2.1
+126 7.2 3.2 6.0 1.8
+127 6.2 2.8 4.8 1.8
+128 6.1 3.0 4.9 1.8
+129 6.4 2.8 5.6 2.1
+130 7.2 3.0 5.8 1.6
+131 7.4 2.8 6.1 1.9
+132 7.9 3.8 6.4 2.0
+133 6.4 2.8 5.6 2.2
+134 6.3 2.8 5.1 1.5
+135 6.1 2.6 5.6 1.4
+136 7.7 3.0 6.1 2.3
+137 6.3 3.4 5.6 2.4
+138 6.4 3.1 5.5 1.8
+139 6.0 3.0 4.8 1.8
+140 6.9 3.1 5.4 2.1
+141 6.7 3.1 5.6 2.4
+142 6.9 3.1 5.1 2.3
+143 5.8 2.7 5.1 1.9
+144 6.8 3.2 5.9 2.3
+145 6.7 3.3 5.7 2.5
+146 6.7 3.0 5.2 2.3
+147 6.3 2.5 5.0 1.9
+148 6.5 3.0 5.2 2.0
+149 6.2 3.4 5.4 2.3
+150 5.9 3.0 5.1 1.8
+    SL  SW  PL  PW         Sp
+1  5.3 3.7 1.5 0.2     setosa
+2  6.4 2.9 4.3 1.3 versicolor
+3  4.4 3.2 1.3 0.2     setosa
+4  6.5 2.8 4.6 1.5 versicolor
+5  5.0 3.4 1.6 0.4     setosa
+6  5.9 3.0 4.2 1.5 versicolor
+7  4.4 2.9 1.4 0.2     setosa
+8  6.0 3.0 4.8 1.8  virginica
+9  4.8 3.0 1.4 0.3     setosa
+10 5.6 2.8 4.9 2.0  virginica
+11 6.0 2.7 5.1 1.6 versicolor
+12 7.2 3.0 5.8 1.6  virginica
+13 7.2 3.2 6.0 1.8  virginica
+14 4.3 3.0 1.1 0.1     setosa
+15 6.8 2.8 4.8 1.4 versicolor
+16 7.3 2.9 6.3 1.8  virginica
+17 6.3 2.7 4.9 1.8  virginica
+18 6.3 2.5 5.0 1.9  virginica
+19 5.4 3.9 1.7 0.4     setosa
+20 6.1 2.9 4.7 1.4 versicolor
+21 6.4 3.1 5.5 1.8  virginica
+22 5.8 2.6 4.0 1.2 versicolor
+23 7.1 3.0 5.9 2.1  virginica
+24 5.0 3.2 1.2 0.2     setosa
+25 5.0 3.0 1.6 0.2     setosa
+26 5.5 2.3 4.0 1.3 versicolor
+27 5.6 2.5 3.9 1.1 versicolor
+28 6.3 3.3 6.0 2.5  virginica
+29 6.3 3.4 5.6 2.4  virginica
+30 6.4 2.8 5.6 2.2  virginica
+31 5.1 2.5 3.0 1.1 versicolor
+32 4.5 2.3 1.3 0.3     setosa
+33 7.7 2.8 6.7 2.0  virginica
+34 5.1 3.7 1.5 0.4     setosa
+35 5.0 3.3 1.4 0.2     setosa
+36 4.6 3.2 1.4 0.2     setosa
+37 5.4 3.7 1.5 0.2     setosa
+38 4.4 3.0 1.3 0.2     setosa
+39 6.1 2.8 4.7 1.2 versicolor
+40 6.1 3.0 4.6 1.4 versicolor
+41 5.1 3.8 1.5 0.3     setosa
+42 5.4 3.4 1.7 0.2     setosa
+43 6.3 3.3 4.7 1.6 versicolor
+44 4.6 3.6 1.0 0.2     setosa
+45 5.2 2.7 3.9 1.4 versicolor
+46 4.8 3.0 1.4 0.1     setosa
+47 5.5 2.4 3.7 1.0 versicolor
+48 5.0 2.3 3.3 1.0 versicolor
+49 5.5 3.5 1.3 0.2     setosa
+50 6.6 3.0 4.4 1.4 versicolor
