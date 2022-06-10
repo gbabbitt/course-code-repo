@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <title>Babbitt Profile - personal GitHub info page</title>
+    
+<!--
+Mini Profile Template
+https://templatemo.com/tm-530-mini-profile
+-->
+  </head>
+  <body>
+    <!-- Welcome Section -->
+    <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/BabbittProfile0.jpg">
+      <div class="container-fluid tm-brand-container-outer">
+        <div class="row">
+          <div class="col-12">
+            <!-- Logo Area -->
+            <!-- Black transparent bg -->
+            <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
+              <div class="tm-brand-container text-center">
+                <img src="img/gregportrait.jpg"></img>
+                <h1 class="tm-brand-name">Gregory A. Babbitt</h1>
+                <p class="tm-brand-description mb-0">Associate Professor - Rochester Institute of Technology,  Rochester NY   USA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-bg-white-transparent tm-welcome-container">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <!-- Welcome Text -->
+            <!-- White transparent bg -->
+            <div class="col-md-7 tm-welcome-left-col">
+              <div class="tm-welcome-left">
+                <h2 class="tm-welcome-title">Babbitt Lab at RIT</h2>
+                <p class="pb-0">
+                  Our research is focused upon gaining a better understanding of how the biophysical function of proteins, DNA and other molecules constrains molecular evolution. We employ a computational approach, taking advantage of many methods in computer simulation, machine learning, statistics and traditional bioinformatics.
+                  Our research group consists of primarily undergraduate students working in many programs across RIT. Most students work for the lab on a volunteer basis, with very flexible schedules, working towards publishable projects that can be added to a students' resume.
+                  Students interested in working with the lab should contact me at gabsbi(at)rit.edu.
+                </p>
+              </div>
+            </div>
+            <!-- Brown bg -->
+            <div class="col-md-5">
+              <div class="tm-welcome-right">
+                <h2 class="tm-welcome-title">Computational Biologist</h2>
+                 <p class="mb-0">
+                  I am a computational biologist with a focused interest in the development of modern statistical tools for
+                  comparative molecular dynamic (MD) simulation applied to the function and evolution of proteins and their
+                  interactions with other molecules. I am also broadly interested in the evolution of complex and stochastic
+                  processes, across all scales, from the molecular to the ecological. Links to ...
+                  </p>
+                  <a rel="nofollow" href="img/CV_Babbitt.pdf" style="background-color: black; color: white;">/My curriculum vitae/</a>
+                  <a rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Babbitt+GA" style="background-color: black; color: white;">/My PubMed listings/</a>
+								  <a rel="nofollow" href="img/Babbitt_amsci.pdf" style="background-color: black; color: white;">.Cover of American Scientist.</a>
+                  <a rel="nofollow" href="img/Babbitt_firstpub.pdf" style="background-color: black; color: white;">/first undergrad publication/</a>
+                  <a rel="nofollow" href="img/Babbitt_masters.pdf" style="background-color: black; color: white;">/Master's/</a>
+                  <a rel="nofollow" href="img/Babbitt_dissertation.pdf" style="background-color: black; color: white;">/PhD Dissertation/</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Welcome section -->
+
+    <!-- Portfolio section -->
+    <section id="tmPortfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-green">
+                Comparing Protein Dynamics 
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-green">
+                  machine learning assisted visualization of comparative protein dynamics
+                  <span class="tm-title-small">(DROIDS/maxDemon v4.0)</span>
+                  <a rel="nofollow" href="https://gbabbitt.github.io/DROIDS-4.0-comparative-protein-dynamics/"> Website/GitHub</a>
+                </h3>
+                <p class="mb-0">
+                  DROIDS is a machine learning assisted GUI based AMBER or OpenMM MD pipeline for statistical comparison of protein dynamics (python DROIDS.py).
+                  The DROIDS program runs multiple replicate MD runs in two comparative states (e.g. bound vs unbound, wild-type vs mutated, or hot vs cold) and statistically compares and color-maps differences in local atom fluctuations across the protein.
+                  The subsequent maxDemon program trains a multi-agent machine learning algorithm upon the dynamics in these two comparative states, identifying regions of functionally or evolutionary conserved dynamics, and exploring impacts upon dynamics in genetic and drug class variants. 
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-orange">
+                Generating Protein Structural Variants
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-orange">
+                  convert multiple sequence alignment to variant PDB structures
+                  <span class="tm-title-small">(PDBmutator v1.4)</span>
+                  <a rel="nofollow" href="https://gbabbitt.github.io/PDBmutator/"> Website/GitHub</a>
+                </h3>
+                <p class="mb-0">
+                  PDBmutator is a GUI enabled script to batch run swapna, swapaa and delete residue commands in UCSF Chimera on a PDB file.
+                  Users can generate all possible structural variants OR variants described by a multiple sequence alignment file.  
+                  It requires pdb4amber (from AmberTools 18 https://ambermd.org/) or directly from GitHub
+                  (https://github.com/Amber-MD/pdb4amber) if an alignment file is used as the source of the PDB variants.
+                  All variants should be subjected to equilibration via molecular dynamics after they are generated. 
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-blue">
+                Fast+Easy Molecular Dynamics 
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-blue">
+                  A simple graphical user interface for GPU accelerated molecular dynamics via Amber/AmberTools or OpenMM/AmberTools
+                  <span class="tm-title-small">(amberMDgui v1.3)</span>
+                  <a rel="nofollow" href="https://gbabbitt.github.io/amberMDgui/"> Website/GitHub</a>
+                </h3>
+                <p class="mb-0">
+                  A simple graphical user interface for running ensembles of GPU accelerated AMBER molecular dynamics simulations, and viewing them in UCSF Chimera.
+                  If users do not have a license for GPU accelerated AMBER (i.e. pmemd.cuda), users can select the OpenMM molecular dynamics engine as an option for GPU accelerated molecular dynamics.
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+                Exploring Drug+Protein Binding Energy
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-dark-gray">
+                  Calculate ligand binding enthalpy from water balanced molecular dynamic simulations via Amber or OpenMM
+                  <span class="tm-title-small">(amberENTHALPY v3.0)</span>
+                <a rel="nofollow" href="https://gbabbitt.github.io/amberENTHALPY/"> Website/GitHub</a>
+                </h3>
+                <p class="mb-0">
+                  A simple graphical user interface for running small molecule ligand-protein binding enthalpy calculations from GPU accelerated molecular dynamics simulations, and viewing them in UCSF Chimera.
+                  The method sets up replicate MD simulations in 4 states (protein-ligand complex, protein host alone, ligand guest alone and water alone) following the method of Fenley and Gilson (2014) published here
+                  https://pubs.acs.org/doi/abs/10.1021/ct5004109. 
+                  This computer simulation approach is intended to mimic the results obtained through Isothermal Titration Calorimetry.
+                </p>
+              </div>
+            </div>
+          <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-green">
+                Tracking Evolving Protein Stability 
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-green">
+                  Compute free energy impacts of mutation (via MAESTRO) on a phylogenetic tree
+                  <span class="tm-title-small">(evolMAESTRO -not yet fully released)</span>
+                  <a rel="nofollow" href="https://github.com/gbabbitt/evolMAESTRO"> Website/GitHub</a>
+                </h3>
+                <p class="mb-0">
+                  This is an ongoing project GUI enabled pipeline) to compute and visualize delta delta G on a phylogenetic tree
+                </p>
+              </div>
+            </div>
+          
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End portfolio section -->
+
+    <!-- Contact section -->
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/BabbittProfile2.jpeg">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="tm-contact-items-container">
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-briefcase tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  Our software is currently tested on Linux Mint 18 Serena/Sylvia and Linux Mint 19 Tara.
+                  Our typical Linux builds include 1 or 2 high end Nvidia graphics cards.
+                  The dual GPU options in our GUI's do not assume SLI connections between cards.
+                </p>
+              </div>
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-building tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  Main software dependencies include python kivy, perl tk, Amber/AmberTools, UCSF Chimera/ChimeraX, MAESTRO, OpenMM and the R project for statistical computing.
+                </p>
+              </div> 
+
+              <div class="tm-contact-item">
+                <i class="fas fa-5x fa-balance-scale tm-contact-item-icon"></i>
+                <p class="mb-0">
+                  Our software pipelines and controls, but does not modify any other existing software applications.
+                  Please be aware of and follow licenses of these other softwares and cite them appropriately in publication.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- row -->
+        <div class="row">
+          <footer class="col-12">
+            <p class="text-center tm-copyright-text">
+            Copyright 2020 Mini Profile Page 
+            
+            - Design: Template Mo</p>
+          </footer>
+        </div>
+      </div>
+      <!-- container -->
+    </div>
+    <!-- section -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+      function detectMsBrowser() {
+        using_ms_browser =
+          navigator.appName == "Microsoft Internet Explorer" ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Edge") > -1) ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Trident") > -1);
+
+        if (using_ms_browser == true) {
+          alert(
+            "Please use Chrome or Firefox for the best browsing experience!"
+          );
+        }
+      }
+      function setBrandMarginTop() {
+        var bottomContainerHeight = $(".tm-welcome-container").height();
+
+        $(".tm-brand-container-outer").css({
+          "margin-top": -bottomContainerHeight + "px"
+        });
+      }
+
+      $(function() {
+        setBrandMarginTop();
+        detectMsBrowser();
+
+        // Handle window resize event
+        $(window).resize(function() {
+          setBrandMarginTop();
+        });
+      });
+    </script>
+  </body>
+</html>
