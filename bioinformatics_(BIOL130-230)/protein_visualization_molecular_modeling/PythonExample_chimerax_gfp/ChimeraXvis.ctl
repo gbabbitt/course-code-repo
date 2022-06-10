@@ -1,0 +1,10 @@
+model	#1
+structure	ChimeraXvis/reference.pdb
+structureADD	ChimeraXvis/query.pdb
+attr_file	ChimeraXvis/attributeEXP.dat
+length	340
+attr	percentEXP
+palette	bluered
+lighting	soft
+transparency	50
+background	black

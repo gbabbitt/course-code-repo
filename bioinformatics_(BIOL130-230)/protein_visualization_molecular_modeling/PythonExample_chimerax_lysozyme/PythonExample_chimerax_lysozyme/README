@@ -1,0 +1,14 @@
+
+TO RUN FROM TERMINAL/CMD PROMPT
+
+/my/path/to/ucsf-chimerax/bin/ChimeraX color_by_attr_chimerax.py
+
+
+might look something like this
+$ /usr/lib/ucsf-chimerax/bin/ChimeraX color_by_attr_chimerax.py
+
+
+TO CHANGE FILES
+open and rewrite ChimeraXvis.ctl 
+
+NOTE: make sure 'attr' in .ctl file matches 'attribute' in .dat file
