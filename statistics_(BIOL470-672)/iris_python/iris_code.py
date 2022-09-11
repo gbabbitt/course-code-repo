@@ -8,6 +8,8 @@ import pandas as pd
 from sklearn import datasets
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
+from plotnine import *
+
 # NOTE: to install python modules, use pip or pip3 installer on the command line (e.g. pip install ModuleName)
 
 # import some data to play with
@@ -54,6 +56,14 @@ iris_data_dummy = pd.get_dummies(iris_data_dummy)
 print(iris_data_dummy)
 
 
+# example using ggplot in python (plotnine module)
+plot1 = (ggplot(iris_data) + aes(x=petal_width, y=petal_length, color=species_factor) + geom_point())
+print(plot1)
+# example using ggplot in python (plotnine module)
+plot2 = (ggplot(iris_data, aes(x=sepal_width, y=sepal_length, color=species_factor)) + geom_point() + theme(panel_background=element_rect(fill='black', alpha=0.6)))
+print(plot2)
+
+
 def main_internal():
         
     x_min, x_max = X[:, 0].min() - 0.5, X[:, 0].max() + 0.5
@@ -90,6 +100,8 @@ def main_external():
 
     plt.show()
     
+    
+        
     # scatter plot sepals  
     plt.figure(2, figsize=(8, 6))
     plt.clf()
@@ -114,6 +126,7 @@ def main_external():
 
     plt.show()
     
+      
     # one way ANOVA example
     model = ols('petal_length ~ C(species)', data=iris_data).fit()
     aov_table = sm.stats.anova_lm(model, typ=2)
