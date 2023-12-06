@@ -18,7 +18,7 @@ def main():
     tot_file = 0
     path_foldername = "C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\YeastGenes"
     foldername = 'YeastGenes'
-    for filename in os.listdir(foldername):
+    for filename in os.listdir(path_foldername):
         #print(filename)
         tot_file += 1
         temp = ""
