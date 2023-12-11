@@ -18,11 +18,11 @@ def main():
     tot_file = 0
     path_foldername = "C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\YeastGenes"
     foldername = 'YeastGenes'
-    for filename in os.listdir(path_foldername):
+    for filename in os.listdir(foldername):
         #print(filename)
         tot_file += 1
         temp = ""
-        my_path = path.join(path_foldername, filename)
+        my_path = path.join(foldername, filename)
         for line in fileinput.input(files = (my_path)):
             temp += line
         filename = filename[:-4]
