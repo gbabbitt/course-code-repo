@@ -1,1 +1,1 @@
-https://github.com/gbabbitt/MD_comparison_webserver
+https://github.com/gbabbitt/JSmol_plotly_example
