@@ -1,1 +1,0 @@
-https://github.com/gbabbitt/JSmol_plotly_example
