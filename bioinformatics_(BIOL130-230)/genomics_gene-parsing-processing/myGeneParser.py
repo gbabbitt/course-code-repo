@@ -13,36 +13,6 @@ import glob
 header = list()
 sequence = list()
 
-# main program
-def main():
-    tot_file = 0
-    path_foldername = "C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\YeastGenes"
-    foldername = 'YeastGenes'
-    for filename in os.listdir(foldername):
-        #print(filename)
-        tot_file += 1
-        temp = ""
-        my_path = path.join(foldername, filename)
-        for line in fileinput.input(files = (my_path)):
-            temp += line
-        filename = filename[:-4]
-        header.append(filename)
-        sequence.append(temp)
-        #myFile = open("C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\Yeast_RNAseq\\Nagalakshmi_2008_5UTRs_V64.gff3")
-        #print(myFile.name)
-        #print(myFile.readlines())
-    average = 0
-    for i in range(len(sequence)):
-        average += gcContent(sequence[i], i)
-        transcribe(sequence[i])
-        #myFile = open("C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\Yeast_RNAseq\\Nagalakshmi_2008_5UTRs_V64.gff3")
-        #print(myFile.name)
-        #print(myFile.readlines())
-    average /= tot_file
-    print("\nAverage GC Content is: ", round(average, 1))
-    #myFile = open("C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\Yeast_RNAseq\\Nagalakshmi_2008_5UTRs_V64.gff3")
-    #print(myFile.name)
-    #print(myFile.readlines())
 #Prints sequences below their filename    
 def printS():
     for i in range(len(sequence)):
@@ -110,6 +80,36 @@ def thirdAd(seq):
     else:
         print("ERROR: thirdAd is not working correctly")
     
+# main program
+def main():
+    tot_file = 0
+    path_foldername = "C:\\Users\\gabsbi\\Desktop\\course-code-repo-main\\bioinformatics_(BIOL130-230)\\genomics_gene-parsing-processing\\YeastGenes"
+    foldername = 'YeastGenes'
+    for filename in os.listdir(foldername):
+        #print(filename)
+        tot_file += 1
+        temp = ""
+        my_path = path.join(path_foldername, filename)
+        for line in fileinput.input(files = (my_path)):
+            temp += line
+        filename = filename[:-4]
+        header.append(filename)
+        sequence.append(temp)
+        #myFile = open("C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\Yeast_RNAseq\\Nagalakshmi_2008_5UTRs_V64.gff3")
+        #print(myFile.name)
+        #print(myFile.readlines())
+    average = 0
+    for i in range(len(sequence)):
+        average += gcContent(sequence[i], i)
+        transcribe(sequence[i])
+        #myFile = open("C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\Yeast_RNAseq\\Nagalakshmi_2008_5UTRs_V64.gff3")
+        #print(myFile.name)
+        #print(myFile.readlines())
+    average /= tot_file
+    print("\nAverage GC Content is: ", round(average, 1))
+    #myFile = open("C:\\Users\\gabsbi\\Desktop\\code-examples\\other\\Yeast_RNAseq\\Nagalakshmi_2008_5UTRs_V64.gff3")
+    #print(myFile.name)
+    #print(myFile.readlines())
 
 
 if __name__ == "__main__":
